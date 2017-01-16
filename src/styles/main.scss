@@ -16,11 +16,36 @@ body {
   background-position: 50% 50%;
 }
 
-.icons {
+.content {
   text-align: center;
-
-  a {
-    display: inline-block;
+  color:$sec;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  .site-title {
+    font-size: 60px;
+    display: block;
+    line-height: 1;
+    @media only screen and (min-width:$cut){
+      margin: 0;
+      font-size: 100px;
+    }
+  }
+  .site-description {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    margin: 5px 0 10px 0;
+    @media only screen and (min-width:$cut){
+      font-size: 40px;
+    }
+  }
+  .icon {
+    color: $sec;
+    width: 18px;
+    height: 18px;
     padding: 15px;
     margin: 2px;
     border-radius: 50px;
@@ -29,15 +54,22 @@ body {
     transition: all .7s;
     &:hover {
       background: $sec;
-      .icon {
-        fill: $main;
-      }
+    }
+    @media only screen and (min-width:$cut) {
+      width: 30px;
+      height: 30px;
     }
   }
-
-  @media only screen and (min-width:$cut) {
-    width: 30px;
-    height: 30px
+  .link {
+    color: $sec;
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1;
+    margin: 30px 20px;
+    @media only screen and (min-width:$cut){
+      font-size: 20px;
+    }
   }
-
 }
