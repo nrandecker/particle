@@ -26,7 +26,7 @@ gulp.task('jekyll-serve', function(done) {
 });
 
 /*
-* Compile and minify SASS stylesheets
+* Compile and minify sass
 */
 gulp.task('sass', function() {
   gulp.src('src/styles/**/*.scss')
@@ -63,4 +63,4 @@ gulp.task('watch', function() {
   gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-build']);
 });
 
-gulp.task('default', ['js', 'sass', 'imagemin', 'jekyll-serve', 'watch']);
+gulp.task('default', ['js', 'imagemin', 'sass', 'jekyll-serve', 'watch']);
