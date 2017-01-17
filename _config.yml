@@ -13,5 +13,6 @@ twitter_username: lorem_ipsum
 github_username:  lorem_ipsum
 gplus_username:  lorem_ipsum
 
+include: ['assets']
 
-exclude: ['package.json', src, 'node_modules']
+exclude: ['package.json', 'src' , 'node_modules']

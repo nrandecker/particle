@@ -63,4 +63,4 @@ gulp.task('watch', function() {
   gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-build']);
 });
 
-gulp.task('default', ['js', 'sass', 'imagemin', 'jekyll-serve', 'watch']);
+gulp.task('default', ['js', 'sass', 'imagemin', 'jekyll-build', 'jekyll-serve', 'watch']);
