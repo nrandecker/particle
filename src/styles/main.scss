@@ -126,6 +126,10 @@ body {
       color: $main;
       background: #FFF;
     }
+    &:active {
+      color: $main;
+      background: #FFF;
+    }
     @media only screen and (min-width:$cut) {
       width: 35px;
       height: 35px;
@@ -158,6 +162,9 @@ body {
       -webkit-animation: pulse 1.3s infinite;
       animation: pulse 1.3s infinite;
       &:hover {
+        color: $sec;
+      }
+      &:active {
         color: $sec;
       }
   }
@@ -228,6 +235,14 @@ body {
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
   }
+  &:active {
+    background-color: $purple;
+    border-color: $purple;
+    color: #fff;
+    transition: color 0.3s ease-in,
+                background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
+  }
 }
 
 .footer {
@@ -241,6 +256,9 @@ body {
     margin: 0;
     color: #FFF;
     &:hover{
+      color: $sec;
+    }
+    &:active {
       color: $sec;
     }
   }
