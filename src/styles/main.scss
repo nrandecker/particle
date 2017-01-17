@@ -127,9 +127,9 @@ body {
       background: #FFF;
     }
     @media only screen and (min-width:$cut) {
-      width: 30px;
-      height: 30px;
-      font-size: 30px;
+      width: 35px;
+      height: 35px;
+      font-size: 35px;
     }
   }
 }
@@ -168,9 +168,9 @@ body {
   margin: 10px;
   text-align: center;
   margin: 10px;
-  font-size: 75px;
+  font-size: 50px;
   @media only screen and (min-width: $cut) {
-    font-size: 100px;
+    font-size: 75px;
   }
 }
 
@@ -193,12 +193,21 @@ body {
     color: $main;
     font-size: 1.1rem;
   }
+  p {
+    margin-right: 5px;
+  }
+}
+
+.images {
+  @media only screen and (min-width: $cut) {
+    float: right;
+  }
 }
 
 .project-link {
   display: block;
   width: 100px;
-  margin-top: 10px;
+  margin: 10px 0px;
   padding: 5px;
   color: $main;
   background-color: transparent;
