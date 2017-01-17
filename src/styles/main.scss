@@ -177,6 +177,9 @@ body {
   text-align: center;
   margin: 10px;
   font-size: 50px;
+  p {
+    font-size: 16px;
+  }
   @media only screen and (min-width: $cut) {
     font-size: 75px;
   }

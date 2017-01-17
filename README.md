@@ -9,7 +9,6 @@ The Theme features:
 - Sweet Scroll
 - Font Awesome and Devicon icons
 - Very very small and fast!
-- Sitemap.xml
 - Info Customization
 
 ## Basic Setup
