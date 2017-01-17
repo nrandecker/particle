@@ -1,5 +1,6 @@
 $main: #1a222c;
 $sec: #4B5664;
+$purple: #54516A;
 $cut: 37.5rem;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -138,6 +139,7 @@ body {
   position: absolute;
   bottom: 25px;
   width: 100%;
+  margin: 0 auto;
   display: block;
   text-align: center;
   font-size: 30px;
@@ -158,6 +160,64 @@ body {
       &:hover {
         color: $sec;
       }
+  }
+}
+
+.user {
+  text-align: center;
+  margin: 10px;
+  text-align: center;
+  margin: 10px;
+  font-size: 75px;
+  @media only screen and (min-width: $cut) {
+    font-size: 100px;
+  }
+}
+
+.user-details {
+  text-align: center;
+  margin: 10px;
+}
+
+.user-projects {
+  margin: 10px;
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  h5 {
+    margin: 0;
+  }
+  li {
+    color: $main;
+    font-size: 1.1rem;
+  }
+}
+
+.project-link {
+  display: block;
+  width: 100px;
+  margin-top: 10px;
+  padding: 5px;
+  color: $main;
+  background-color: transparent;
+  border: 1px solid $main;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+  &:hover {
+    background-color: $purple;
+    border-color: $purple;
+    color: #fff;
+    transition: color 0.3s ease-in,
+                background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
   }
 }
 
