@@ -1,31 +1,83 @@
 $main: #1a222c;
-$sec: #FFF;
+$sec: #4B5664;
 $cut: 37.5rem;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@-webkit-keyframes pulse {
+    from {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+    50% {
+        -ms-filter: none;
+        -webkit-filter: none;
+        filter: none;
+        opacity: 1;
+        top: -10px
+    }
+    to {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+}
+
+@keyframes pulse {
+    from {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+    50% {
+        -ms-filter: none;
+        -webkit-filter: none;
+        filter: none;
+        opacity: 1;
+        top: -10px
+    }
+    to {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+}
+
+.main-wrapper {
+  display: block;
+  height: 100%;
 }
 
 #particles-js {
   background: $main;
-  position: absolute;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
 }
 
 .content {
   text-align: center;
-  color:$sec;
-  position: fixed;
+  color:#FFF;
+  position: absolute;
   top: 50%;
   left: 50%;
+  margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   .site-title {
-    font-size: 60px;
+    font-size: 50px;
     display: block;
     line-height: 1;
     @media only screen and (min-width:$cut){
@@ -42,34 +94,85 @@ body {
       font-size: 40px;
     }
   }
+  .link {
+    color: #FFF;
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    @media only screen and (min-width:$cut){
+      font-size: 20px;
+    }
+  }
+}
+
+.icons-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   .icon {
-    color: $sec;
+    text-align: center;
+    color: #FFF;
     width: 18px;
     height: 18px;
-    padding: 15px;
+    padding: 10px;
     margin: 2px;
-    border-radius: 50px;
-    border: 2px solid $sec;
-    line-height: 0;
+    border-radius: 50%;
+    border: 2px solid #FFF;
     transition: all .7s;
     &:hover {
-      background: $sec;
+      color: $main;
+      background: #FFF;
     }
     @media only screen and (min-width:$cut) {
       width: 30px;
       height: 30px;
+      font-size: 30px;
     }
   }
-  .link {
-    color: $sec;
-    display: inline-flex;
-    justify-content: center;
+}
+
+.down {
+  color: #FFF;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  .icon {
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100px;
+      height: 100px;
+      fill: #fff;
+      -webkit-animation: pulse 1.3s infinite;
+      animation: pulse 1.3s infinite;
+      &:hover {
+        color: $sec;
+      }
+  }
+}
+
+.footer {
+  background: $main;
+  padding: 25px 0;
+  margin-top: 100px;
+  text-align: center;
+  color: #FFF;
+  a {
     text-decoration: none;
-    font-size: 15px;
-    line-height: 1;
-    margin: 30px 20px;
-    @media only screen and (min-width:$cut){
-      font-size: 20px;
+    margin: 0;
+    color: #FFF;
+    &:hover{
+      color: $sec;
     }
   }
 }
