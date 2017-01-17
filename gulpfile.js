@@ -5,6 +5,7 @@ var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
 var cp = require('child_process');
+var imagemin = require('gulp-imagemin')
 
 var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
 
@@ -35,6 +36,16 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('assets/css'));
 });
 
+/*
+ * Minify images
+ */
+gulp.task('imagemin', function() {
+	return gulp.src('src/img/**/*.{jpg,png,gif}')
+		.pipe(plumber())
+		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+		.pipe(gulp.dest('assets/img/'));
+});
+
 /**
  * Compile and minify js
  */
@@ -52,4 +63,4 @@ gulp.task('watch', function() {
   gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-build']);
 });
 
-gulp.task('default', ['js', 'sass', 'jekyll-serve', 'watch']);
+gulp.task('default', ['js', 'sass', 'imagemin', 'jekyll-serve', 'watch']);
