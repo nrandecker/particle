@@ -15,20 +15,20 @@ body {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
         filter: alpha(opacity=40);
         opacity: .4;
-        top: 0
+        top: 0;
     }
     50% {
         -ms-filter: none;
         -webkit-filter: none;
         filter: none;
         opacity: 1;
-        top: -10px
+        top: -10px;
     }
     to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
         filter: alpha(opacity=40);
         opacity: .4;
-        top: 0
+        top: 0;
     }
 }
 
@@ -125,7 +125,7 @@ body {
     border-radius: 50%;
     border: 2px solid #FFF;
     transition: all .7s;
-    &:focus {
+    &:hover {
       color: $main;
       background: #FFF;
     }
@@ -164,7 +164,7 @@ body {
       fill: #fff;
       -webkit-animation: pulse 1.3s infinite;
       animation: pulse 1.3s infinite;
-      &:focus {
+      &:hover {
         color: $sec;
       }
       &:active {
@@ -231,7 +231,7 @@ body {
   transition: color 0.3s ease-out,
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
-  &:focus {
+  &:hover {
     background-color: $purple;
     border-color: $purple;
     color: #fff;
@@ -262,7 +262,7 @@ body {
     text-decoration: none;
     margin: 0;
     color: #FFF;
-    &:focus{
+    &:hover{
       color: $sec;
     }
     &:active {
