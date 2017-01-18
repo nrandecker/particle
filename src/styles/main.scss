@@ -125,7 +125,7 @@ body {
     border-radius: 50%;
     border: 2px solid #FFF;
     transition: all .7s;
-    &:hover {
+    &:focus {
       color: $main;
       background: #FFF;
     }
@@ -164,7 +164,7 @@ body {
       fill: #fff;
       -webkit-animation: pulse 1.3s infinite;
       animation: pulse 1.3s infinite;
-      &:hover {
+      &:focus {
         color: $sec;
       }
       &:active {
@@ -231,7 +231,7 @@ body {
   transition: color 0.3s ease-out,
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
-  &:hover {
+  &:focus {
     background-color: $purple;
     border-color: $purple;
     color: #fff;
@@ -262,7 +262,7 @@ body {
     text-decoration: none;
     margin: 0;
     color: #FFF;
-    &:hover{
+    &:focus{
       color: $sec;
     }
     &:active {

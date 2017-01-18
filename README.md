@@ -7,8 +7,10 @@ The Theme features:
 - Gulp
 - SASS
 - Sweet Scroll
+- Particle.js
+- BrowserSync
 - Font Awesome and Devicon icons
-- Very very small and fast!
+- Google Analytics
 - Info Customization
 
 ## Basic Setup
@@ -38,7 +40,14 @@ github_username:  lorem_ipsum
 gplus_username:  lorem_ipsum
 ```
 
-**Don't forget to change your baseurl before build your site!**
+**Don't forget to change your url before you deploy your site!**
+
+## Color and Particle Customization
+- Color Customization
+  - Edit the sass variables
+- Particle Customization
+  - Edit the json data in particle function in app.js
+  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
 
 ## Running the blog in local
 
@@ -54,7 +63,7 @@ Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/i
 
 ## License
 
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
 
 ## Credits
 

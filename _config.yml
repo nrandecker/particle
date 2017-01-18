@@ -6,13 +6,15 @@ url: "https://nrandecker.github.io" # the base hostname & protocol for your site
 
 # User settings
 username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS. Humblebrag VHS mustache, dreamcatcher vinyl copper mug pitchfork fap artisan vape freegan vaporware. 90's fam kitsch drinking vinegar, +1 retro echo park. 8-bit pork belly biodiesel, jianbing 3 wolf moon enamel pin pabst glossier butcher.
+user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
 user_title: Software Developer
 email: anon@anon.com
 twitter_username: lorem_ipsum
 github_username:  lorem_ipsum
 gplus_username:  lorem_ipsum
 
-include: ['assets']
+# Google-analytics
+google-analytics:
+  id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
