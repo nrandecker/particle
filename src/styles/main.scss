@@ -1,7 +1,7 @@
 $main: #1a222c;
 $sec: #4B5664;
 $purple: #54516A;
-$cut: 37.5rem;
+$cut: 768px;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -54,21 +54,23 @@ body {
     }
 }
 
-.main-wrapper {
-  display: block;
-  height: 100%;
-}
-
 #particles-js {
   background: $main;
-  width: 100%;
+  display: block;
+  vertical-align: bottom;
+  width: 100vw;
   min-height: 100vh;
-  margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  .particles-js-canvas-el {
+    width:100vw !important;
+    height:100vh !important;
+  }
 }
 
 .content {
+  z-index: 1;
   text-align: center;
   color:#FFF;
   position: absolute;
@@ -115,14 +117,15 @@ body {
   .icon {
     text-align: center;
     color: #FFF;
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
     padding: 10px;
     margin: 2px;
     border-radius: 50%;
     border: 2px solid #FFF;
     transition: all .7s;
-    &:hover {
+    &:focus {
       color: $main;
       background: #FFF;
     }
@@ -161,7 +164,7 @@ body {
       fill: #fff;
       -webkit-animation: pulse 1.3s infinite;
       animation: pulse 1.3s infinite;
-      &:hover {
+      &:focus {
         color: $sec;
       }
       &:active {
@@ -173,9 +176,10 @@ body {
 .user {
   text-align: center;
   margin: 10px;
-  text-align: center;
-  margin: 10px;
-  font-size: 50px;
+  font-size: 60px;
+  p {
+    font-size: 16px;
+  }
   @media only screen and (min-width: $cut) {
     font-size: 75px;
   }
@@ -227,7 +231,7 @@ body {
   transition: color 0.3s ease-out,
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
-  &:hover {
+  &:focus {
     background-color: $purple;
     border-color: $purple;
     color: #fff;
@@ -258,7 +262,7 @@ body {
     text-decoration: none;
     margin: 0;
     color: #FFF;
-    &:hover{
+    &:focus{
       color: $sec;
     }
     &:active {

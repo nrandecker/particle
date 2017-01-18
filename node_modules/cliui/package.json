@@ -1,14 +1,17 @@
 {
   "name": "cliui",
-  "version": "2.1.0",
+  "version": "3.2.0",
   "description": "easily create complex multi-column command-line-interfaces",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha --check-leaks --ui exports --require patched-blanket -R mocoverage"
+    "pretest": "standard",
+    "test": "nyc mocha",
+    "coverage": "nyc --reporter=text-lcov mocha | coveralls",
+    "version": "standard-version"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/bcoe/cliui.git"
+    "url": "http://github.com/yargs/cliui.git"
   },
   "config": {
     "blanket": {
@@ -42,18 +45,20 @@
   "author": "Ben Coe <ben@npmjs.com>",
   "license": "ISC",
   "dependencies": {
-    "center-align": "^0.1.1",
-    "right-align": "^0.1.1",
-    "wordwrap": "0.0.2"
+    "string-width": "^1.0.1",
+    "strip-ansi": "^3.0.1",
+    "wrap-ansi": "^2.0.0"
   },
   "devDependencies": {
-    "blanket": "^1.1.6",
-    "chai": "^2.2.0",
-    "coveralls": "^2.11.2",
-    "mocha": "^2.2.4",
-    "mocha-lcov-reporter": "0.0.2",
-    "mocoverage": "^1.0.0",
-    "patched-blanket": "^1.0.1",
-    "standard": "^3.6.1"
-  }
+    "chai": "^3.5.0",
+    "chalk": "^1.1.2",
+    "coveralls": "^2.11.8",
+    "mocha": "^2.4.5",
+    "nyc": "^6.4.0",
+    "standard": "^6.0.8",
+    "standard-version": "^2.1.2"
+  },
+  "files": [
+    "index.js"
+  ]
 }
