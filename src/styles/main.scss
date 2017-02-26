@@ -175,7 +175,7 @@ body {
 
 .user {
   text-align: center;
-  margin: 10px;
+  margin: 20px auto;
   font-size: 60px;
   p {
     font-size: 16px;
@@ -187,11 +187,12 @@ body {
 
 .user-details {
   text-align: center;
-  margin: 10px;
+  font-size: 16px;
+  margin: 10px auto;
 }
 
 .user-projects {
-  margin: 10px;
+  margin: 40px auto;
   img {
     max-width: 100%;
     height: auto;
