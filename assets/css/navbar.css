@@ -8,8 +8,10 @@
   background-color: #FFF;
   display: flex;
   align-items: center;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.2);
+  z-index: 10;
 }
+
 
 * {
   margin: 0;
@@ -33,7 +35,7 @@ body {
     color: black;
     padding: 18px 6px;
     margin: 0px 8px;
-    border-bottom: 3px solid transparent;
+    border-bottom: 3px solid;
 
     // Simpler Version, with some flaw
     &:hover {
@@ -47,7 +49,7 @@ body {
 //       top: 0; left: 0;
 //       right: 0; bottom: 0;
 //       transition: all 0.4s ease-in-out;
-//       border-bottom: 3px solid transparent;
+//       border-bottom: 3px solid;
 //     }
 
 //     &:hover:before {
