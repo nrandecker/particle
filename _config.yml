@@ -2,7 +2,7 @@
 title: Blog | Chathurika Senani
 description: Systers | GHC Scholar | Women in tech
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://zenara.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Chathurika Senani
