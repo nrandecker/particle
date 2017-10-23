@@ -214,6 +214,17 @@ body {
   @media only screen and (min-width: $cut) {
     float: right;
   }
+  img {
+    @media only screen and (min-width: $cut) {
+      float: right;
+    }
+  }
+}
+
+.contents {
+  @media only screen and (min-width: $cut) {
+    margin-left: 0;
+  }
 }
 
 .project-link {
