@@ -2,13 +2,13 @@
   background: $main;
   display: flex;
   vertical-align: bottom;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   .particles-js-canvas-el {
-    width:100vw !important;
+    width:100% !important;
     height:100vh !important;
   }
 }
