@@ -1,19 +1,15 @@
 <div id="particles-js">
   <div class="header">
       <h1>
-        <span class="site-title">{{site.username}}</span>
+        <img class="site-title" src="{{ "/assets/img/banner.white.svg" | prepend: site.baseurl }}" />
         <span class="site-description">{{site.user_title}}</span>
       </h1>
       <div class="header-icons">
-        <a aria-label="Send email" href="mailto:{{stie.company.email}}"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="Send email" href="mailto:{{site.company.email}}"><i class="icon fa fa-envelope"></i></a>
         <a aria-label="Twitter" target="_blank" href="https://twitter.com/{{site.company.twitter}}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
         <a aria-label="Linkedin" target="_blank" href="https://www.linkedin.com/company/{{site.company.linkedin}}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
         <a aria-label="Github" target="_blank" href="https://github.com/{{site.company.github}}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
       </div>
-      <div class="header-links">
-        <a class="link" href="#about" data-scroll>Qui sommes nous ?</a>
-        <a class="link" href="#projects" data-scroll>Conférences</a>
-      </div>
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  <a class="down" href="#team" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>

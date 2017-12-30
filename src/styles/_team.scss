@@ -14,7 +14,7 @@ $totalColumns: 2;
 
 #team {
   text-align: center;  
-  padding: 0 20px;
+  padding-top: 2em;
   box-sizing: border-box;
 
   .grid {
@@ -22,18 +22,9 @@ $totalColumns: 2;
     flex-direction: row;
     flex-wrap: wrap;
     background: #fff;
-    border: 1px solid #e2e9ed;
-
-    @for $i from 1 through $totalColumns {
-      &[data-column="#{$i}"] {
-        .column {
-          width: percentage(1 / $i);
-          max-width: percentage(1 / $i);
-          min-width: percentage(1 / $i);
-          flex-basis: percentage(1 / $i);
-        }
-      }
-    }
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
 
     .column {
       z-index: 0;
@@ -43,6 +34,9 @@ $totalColumns: 2;
       padding: 10px;
       box-sizing: border-box;
       transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease;
+      min-width: 25em;
+      max-width: 25em;
+      flex-basis: 50%;
 
       &:before {
         content: "";
@@ -61,20 +55,6 @@ $totalColumns: 2;
           opacity: 1;
           padding-left: 0;
         }
-      }
-
-      @media (max-width: 800px) {
-        width: 50% !important;
-        max-width: 50% !important;
-        min-width: 50% !important;
-        flex-basis: 50% !important;
-      }
-
-      @media (max-width: 600px) {
-        width: 100% !important;
-        max-width: 100% !important;
-        min-width: 100% !important;
-        flex-basis: 100% !important;
       }
 
       .member {

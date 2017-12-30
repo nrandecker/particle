@@ -20,18 +20,18 @@ members:
     color: purple
     firstname: fabien
     lastname: juif
-    title: Co-Founder, Web Developer
+    title: Développeur
     description: JE SUIS FABIEN !
     twitter: fabienjuif
     github: fabienjuif
     linkedin: fabienjuif
     email: fabien.juif@alakarte.io
-    picture: "https://secure.gravatar.com/avatar/5e688e29837dd60ffc5d497b915ee5f3?s=500"
+    picture: "https://secure.gravatar.com/avatar/963e047fe4332aaca53a6e5c6d275a1f?s=500"
   - guillaume:
     color: blue
     firstname: guillaume
     lastname: crespel
-    title: Co-Founder, Web Developer
+    title: Développeur
     description: JE SUIS Guillaume !
     twitter: guilaumcrespel
     github: guillaumecrespel
