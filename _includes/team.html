@@ -1,0 +1,36 @@
+<div class="grid" data-column="2">
+  {% for member in site.members %}
+  <div class="column {{member.color}}">
+    <div class="member">
+      <div class="avatar">
+        <img src="{{member.picture}}" />
+      </div>
+      <div class="name">{{member.firstname}}
+        <span>{{member.lastname}}</span>
+      </div>
+      <div class="title">{{member.title}}</div>
+      <ul class="social">
+        <li class="item">
+          <a aria-label="Send email" href="mailto:{{member.email}}">
+            <i class="icon fa fa-envelope"></i>
+          </a>
+        </li>
+        <li class="item">
+          <a aria-label="Twitter" target="_blank" href="https://twitter.com/{{member.twitter}}">
+            <i class="icon fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="item">
+          <a aria-label="Linkedin" target="_blank" href="https://www.linkedin.com/company/{{member.linkedin}}">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="item">
+          <a aria-label="Github" target="_blank" href="https://github.com/{{member.github}}">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  {% endfor %}

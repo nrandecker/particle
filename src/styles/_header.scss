@@ -24,14 +24,8 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   .site-title {
-    font-size: 50px;
-    display: block;
-    line-height: 1;
-    color: #FFF;
-    @media only screen and (min-width:$cut){
-      margin: 0;
-      font-size: 100px;
-    }
+    width: 50vw;
+    height: auto;
   }
   .site-description {
     font-size: 20px;
@@ -74,11 +68,11 @@
     border: 2px solid #FFF;
     transition: all .7s;
     &:hover {
-      color: $main;
+      color: $blue;
       background: #FFF;
     }
     &:active {
-      color: $main;
+      color: $blue;
       background: #FFF;
     }
     @media only screen and (min-width:$cut) {
@@ -90,7 +84,6 @@
 }
 
 .down {
-  color: #FFF;
   position: absolute;
   bottom: 25px;
   width: 100%;
@@ -100,6 +93,7 @@
   font-size: 30px;
   cursor: pointer;
   .icon {
+      color: #fff;
       position: absolute;
       -webkit-transform-style: preserve-3d;
       transform-style: preserve-3d;
@@ -112,11 +106,5 @@
       fill: #fff;
       -webkit-animation: pulse 1.3s infinite;
       animation: pulse 1.3s infinite;
-      &:hover {
-        color: $sec;
-      }
-      &:active {
-        color: $sec;
-      }
   }
 }
