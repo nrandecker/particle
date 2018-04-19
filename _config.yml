@@ -1,20 +1,20 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+title: Steven Choi
+description: Full Stack Web Developer-To-Be
+#baseurl: "/particle" # the subpath of your site, e.g. /blog
+#url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+username: Steven Choi
+user_description: Electrical Engineering Graduate involved in Self-Taught Web Development
+user_title: Full Stack Developer-to-be
+email: sjc@ualberta.ca
+twitter_username: sjc_17
+github_username:  sjc17
+linkedin_username: steven-choi-41915795
 
 # Google-analytics
 google-analytics:
-  id: ""
+id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
