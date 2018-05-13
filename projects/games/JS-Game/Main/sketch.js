@@ -9,6 +9,28 @@ let hitParticle;
 
 function setup() {
   createCanvas( 2000, 1000 );
+  asteroids_vNorm_s1_0 = loadImage( "../sprites/asteroids/asteroids_vNorm_s1/Norm_0.png" );
+  asteroids_vNorm_s1_1 = loadImage( "../sprites/asteroids/asteroids_vNorm_s1/Norm_1.png" );
+  asteroids_vNorm_s1_2 = loadImage( "../sprites/asteroids/asteroids_vNorm_s1/Norm_2.png" );
+  asteroids_vNorm_s1_3 = loadImage( "../sprites/asteroids/asteroids_vNorm_s1/Norm_3.png" );
+
+  asteroids_vNorm_s2_0 = loadImage( "../sprites/asteroids/asteroids_vNorm_s2/Norm_0.png" );
+  asteroids_vNorm_s2_1 = loadImage( "../sprites/asteroids/asteroids_vNorm_s2/Norm_1.png" );
+  asteroids_vNorm_s2_2 = loadImage( "../sprites/asteroids/asteroids_vNorm_s2/Norm_2.png" );
+  asteroids_vNorm_s2_3 = loadImage( "../sprites/asteroids/asteroids_vNorm_s2/Norm_3.png" );
+
+  asteroids_vBlack_s1_0 = loadImage( "../sprites/asteroids/asteroids_vBlack_s1/Black_0.png" );
+  asteroids_vBlack_s1_1 = loadImage( "../sprites/asteroids/asteroids_vBlack_s1/Black_1.png" );
+  asteroids_vBlack_s1_2 = loadImage( "../sprites/asteroids/asteroids_vBlack_s1/Black_2.png" );
+  asteroids_vBlack_s1_3 = loadImage( "../sprites/asteroids/asteroids_vBlack_s1/Black_3.png" );
+
+  asteroids_vBlack_s2_0 = loadImage( "../sprites/asteroids/asteroids_vBlack_s2/Black_0.png" );
+  asteroids_vBlack_s2_1 = loadImage( "../sprites/asteroids/asteroids_vBlack_s2/Black_1.png" );
+  asteroids_vBlack_s2_2 = loadImage( "../sprites/asteroids/asteroids_vBlack_s2/Black_2.png" );
+  asteroids_vBlack_s2_3 = loadImage( "../sprites/asteroids/asteroids_vBlack_s2/Black_3.png" );
+
+
+
   bulletImage = loadImage( "../sprites/rocket/bullet.png" );
   shipImage = loadImage( "../sprites/ship/ship/ship.png" );
   ship = createSprite( width / 2, height / 2, 32, 32 );
@@ -97,11 +119,12 @@ function particle( x, y, type ) {
   }
 }
 
-//    ../sprites/asteroids/asteroids_v[]_s[]
 
 function asteroidsL( size, type, x, y ) {
   asteroid = createSprite( x, y, 32, 32 );
   var img = loadImage( "../sprites/asteroids/asteroids_v" + type + "_s" + size + "/" + type + "_" + floor( random( 0, 3 ) ) + ".png" );
+  var img = addImage( "asteroids_v+" + type + "s" + size + "" )
+  asteroids_vNorm_s1
   asteroid.addImage( img );
   asteroid.rotation = random( 360 );
 
