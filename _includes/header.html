@@ -1,19 +1,28 @@
 <div id="particles-js">
   <div class="header">
       <h1>
-        <span class="site-title">{{site.username}}</span>
+        <img src={{site.logo_path}} style="max-width: 40%;border-radius: 0;">
         <span class="site-description">{{site.user_title}}</span>
       </h1>
       <div class="header-icons">
-        <a aria-label="Send email" href="#"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Twitter" target="_blank" href="#"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-        <a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
-        <a aria-label="My Github" target="_blank" href="#"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        <a aria-label="Manda e-mail" href="mailto:{{site.email}}"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <a aria-label="Facebook" target="_blank" href="https://fb.com/{{site.facebook}}"><i class="icon fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a aria-label="YouTube" target="_blank" href="https://youtube.com/c/{{site.youtube}}"><i class="icon fa fa-youtube-play" aria-hidden="true"></i></a>
+        <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/{{site.instagram}}"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+        <a aria-label="Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
       </div>
       <div class="header-links">
-        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#about" data-scroll>Sobre</a>
+        <a class="link" href="#whoami" data-scroll>Quem somos</a>
+<!--
         <a class="link" href="#projects" data-scroll>Projects</a>
+-->
+        <a class="link" target="_blank" href="https://medium.com/pizzadedados">Revista</a>
+        <a class="link" target="_blank" href="https://podcast.pizzadedados.com/">Episódios</a>
       </div>
   </div>
+  <br>
+  <br>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
