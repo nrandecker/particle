@@ -17,6 +17,9 @@ github_username:  pizzadedados
 #gplus_username:  
 logo_path: assets/img/signo.png
 
+# Pizzaiolos photos
+lele_photo: "https://i.imgur.com/nXuylsx.jpg"
+
 # Google-analytics
 google-analytics:
   id: ""
