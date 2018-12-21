@@ -1,20 +1,27 @@
 # Site settings
 title: A blog about lorem ipsum dolor sit amet
 description: A blog about lorem ipsum dolor sit amet
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: "/particle" # the subpath of your site, e.g. /blog
+url: "https://pizzadedados.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+username: 
+title: Pizza de Dados
+user_description: O primeiro podcast sobre ciência de dados no Brasil
+user_title: Pizza de Dados
+email: pizzadedados@gmail.com
+twitter_username: pizzadedados
+facebook: pizzadedados
+youtube: pizzadedados
+instagram: pizzadedados
+github_username:  pizzadedados
+#gplus_username:  
+logo_path: assets/img/signo.png
 
 # Google-analytics
 google-analytics:
   id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
+plugins_dir:
+  - jekyll-redirect-from
