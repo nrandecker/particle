@@ -1,12 +1,11 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Pizza de Dados
+description: O primeiro podcast sobre ciência de dados no Brasil
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: 
-title: Pizza de Dados
 user_description: O primeiro podcast sobre ciência de dados no Brasil
 user_title: Pizza de Dados
 email: pizzadedados@gmail.com
