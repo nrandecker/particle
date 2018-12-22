@@ -19,7 +19,8 @@ a {
 
 .tech {
   margin: 10px;
-  width: 33%;
+  width: 100%;
+
   img {
     width:48%;
     border-radius: 5px;
@@ -27,6 +28,10 @@ a {
   p {
     padding: 0 20px;
     text-align: center;
+  }
+
+  @media screen and (min-width: $cut) {
+    width: 33%;
   }
 }
 
