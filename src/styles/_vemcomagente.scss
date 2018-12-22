@@ -1,14 +1,10 @@
-#about {
+#vemcomagente {
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
   @media only screen and (min-width: $cut) {
     width: 80%;
   }
-}
-
-p {
-  text-align: center;
 }
 
 a {
@@ -22,6 +18,7 @@ a {
     width:48%;
   }
   p {
+    text-align: center;
     padding: 0 20px;
   }
 }
@@ -45,4 +42,7 @@ a {
 .user-details {
   text-align: center;
   margin: 5px auto;
+  p {
+    text-align: center;
+  }
 }
