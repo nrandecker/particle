@@ -12,20 +12,6 @@ h2 {
   padding-top: 0;
 }
 
-p {
-  text-align: left;
-}
-
-.tech {
-  margin: 10px;
-  width: 33%;
-  img {
-    width:48%;
-  }
-  p {
-    padding: 0 20px;
-  }
-}
 
 .user {
   text-align: center;
@@ -44,6 +30,11 @@ p {
 }
 
 .user-details {
-  text-align: center;
   margin: 5px auto;
+  p {
+    text-align: left;
+  }
+  ol {
+    text-align: left;
+  }
 }
