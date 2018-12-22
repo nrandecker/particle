@@ -1,4 +1,4 @@
-#about {
+#pizzaiolos {
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
@@ -10,10 +10,7 @@
 h2 {
   margin-top: 0;
   padding-top: 0;
-}
-
-p {
-  text-align: left;
+  font-size: 1.8rem;
 }
 
 .tech {
@@ -21,9 +18,11 @@ p {
   width: 33%;
   img {
     width:48%;
+    border-radius: 5px;
   }
   p {
     padding: 0 20px;
+    text-align: center;
   }
 }
 

@@ -1,15 +1,3 @@
-#projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 960px;
-  margin: 0 auto;
-  @media only screen and (min-width: $cut) {
-    width: 80%;
-  }
-}
-
 #pizzaiolos {
   display: flex;
   flex-direction: column;
@@ -55,30 +43,14 @@
     width: 48%;
   }
 }
-.images-right {
-  @media only screen and (min-width: $cut) {
-    float: right;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: right;
-    }
-  }
+
+img{
+    border-radius: 5px;
 }
 
-.images-left {
-  @media only screen and (min-width: $cut) {
-    float: left;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: left;
-    }
-  }
+h2 {
+    font-size:1.8rem;
 }
-
 .project-link {
   display: block;
   width: 100px;

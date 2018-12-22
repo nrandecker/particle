@@ -2,3 +2,5 @@ _site
 .sass-cache
 node_modules
 .DS_STORE
+*.swp
+*.log
