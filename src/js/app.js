@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
       nb: 80
     },
     "interactivity": {
-      "detect_on": "window",
+      "detect_on": "canvas",
       "events": {
         "onhover": {
           "enable": false,
