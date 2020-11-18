@@ -48,7 +48,7 @@ gplus_username:  lorem_ipsum
   - Edit the sass variables
 - Particle Customization
   - Edit the json data in particle function in app.js
-  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
+  - Refer to [tsParticles](https://github.com/matteobruni/tsparticles/) for help
 
 ## Running the blog in local
 
@@ -72,4 +72,4 @@ This theme is free and open source software, distributed under the The MIT Licen
 
 This theme was partially designed with the inspiration from these fine folks
 - [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+- [Matteo Bruni](https://github.com/matteobruni/tsparticles/)
