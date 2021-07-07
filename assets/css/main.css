@@ -58,7 +58,7 @@ div.inlining {
 /* On mouse-over, add a deeper shadow */
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.15);
 }
 
 
@@ -82,11 +82,11 @@ div.container {
 
 .about-card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0px 4px 8px 0px rgba(34, 39, 46, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     transition: 0.3s;
     border-radius: 15px;
     /* 5px rounded corners */
-    width: 35%;
+    width: 31%;
     height: auto;
     display: inline-block;
     margin: 10px;
@@ -97,7 +97,9 @@ div.container {
 }
 
 div.container {
-    padding: 1px 16px;
+    padding: 0px 16px 0px 16px;
+    position: relative;
+    bottom: 8px;
     /* border-radius: 25px 25px 0 0; */
 }
 
@@ -4933,8 +4935,9 @@ sup {
 
 .logo-scaling {
     position: relative;
-    top: 40px;
-    width: 45%;
+    bottom: 20px;
+    right: 10px;
+    width: 50%;
     height: auto;
 }
 
