@@ -1,3 +1,11 @@
+## Running the blog in local
+In order to compile the assets and run Jekyll on local you need to follow those steps:
+
+1. Install NodeJS
+2. Install Jekyll: `sudo gem install bundler jekyll`
+3. Install Yarn: `npm install -g yarn`
+4. Install dependencies: `yarn`
+5. Run: `gulp`
 
 ## License
 
