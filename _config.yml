@@ -20,6 +20,6 @@ arc_logo : "assets/img/arclogo_bw_2021.png"
 nvidia_logo : "assets/img/1_46tz-SDJRkv16vXdz0TAWA.png"
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "G-ZRC73S41VF"
 
 exclude: ['package.json', 'src' , 'node_modules']
