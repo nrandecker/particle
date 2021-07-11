@@ -9,10 +9,10 @@ username: Automation & Robotics Club
 user_description: Minim nostrud anim nulla esse esse laborum. Magna mollit id elit Lorem officia elit enim labore laborum. Ea cillum adipisicing dolore sint proident voluptate. Nisi culpa sint exercitation excepteur amet esse dolor ullamco aute cillum.Minim nostrud anim nulla esse esse laborum. Magna mollit id elit Lorem officia elit enim labore laborum. Ea cillum adipisicing dolore sint proident voluptate. Nisi culpa sint exercitation excepteur amet esse dolor ullamco aute cillum.
 user_title: Electronics | Design | Programming
 email: arc@hyderabad.bits-pilani.ac.in
-levelup_url : "https://arc-bphc.github.io/site//resources/2021-07-06-Level-0-1.html"
-workshops_url : "https://arc-bphc.github.io/site/resources/2021-07-06-Day1-1.html"
-projects_url : "https://arc-bphc.github.io/site/projects.html"
-resources_url : "https://arc-bphc.github.io/site/resources.html"
+levelup_url : "https://arc-bphc.github.io/site/resources/2021-07-06-Level-0-1.html"
+workshops_url : "https://arc-bphc.github.io/site/resources/2021-07-06-Day0-1.html"
+projects_url : "https://arc-bphc.github.io/site/projects/"
+resources_url : "https://arc-bphc.github.io/site/resources/"
 twitter_username: lorem_ipsum
 github_username:  arc-bphc
 gplus_username:  lorem_ipsum
@@ -20,6 +20,6 @@ arc_logo : "assets/img/arclogo_bw_2021.png"
 nvidia_logo : "assets/img/1_46tz-SDJRkv16vXdz0TAWA.png"
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "G-ZRC73S41VF"
 
 exclude: ['package.json', 'src' , 'node_modules']
