@@ -2,7 +2,7 @@
 <html lang="en">
 {% include head.html %}
 
-<body class="body-coloring">
+<body class="body-coloring" id="body-scaling">
     {% include header.html %}
     <section id="about">
         {% include about.html %}
@@ -10,8 +10,13 @@
     <section id="team">
         {% include team.html %}
     </section>
+    <section id="sponsors">
+        {% include sponsors.html %}
+    </section> 
     <section id="contact">
         {% include contact.html %}
     </section>
-    {{ content }} {% include footer.html %}
+    
+    {{content}}
+    {% include footer.html %}
 </body>

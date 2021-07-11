@@ -30,18 +30,38 @@ section {
 
 div.inline-display {
     display: inline-flex;
-    /* position: relative;
-    left: 50px; */
+    width : 1240px;
+
 }
 
 iframe.formatting-embedded {
-    padding: 25px;
+    padding: 20px;
     position: relative;
-    right: 100px;
+    right: 40px;
+    bottom: 25px;
+    /* border-radius: 15px; */
+    overflow: hidden;
+    margin-top: -5px; /*Cut off top bar*/
+    margin-bottom: -130px; /* Cut off bottom bar */
 }
+iframe.formatting-embedded-form {
+    padding: 20px;
+    zoom: 1.08;
+    -moz-transform: scale(1.08);
+    position: relative;
+    right: 40px;
+    bottom : 32px;
+    /* border-radius: 15px; */
+    overflow: hidden;
+    margin-top: -5px; /*Cut off top bar*/
+    margin-bottom: -200px; /* Cut off bottom bar */
+    /* margin-right: -5px; Cut off bottom bar */
 
+}
 div.inlining {
     display: inline-flex;
+    overflow: hidden;    
+    /* border: 2px solid black; Just for aesthetics, can be removed */
 }
 
 .card {
@@ -52,7 +72,7 @@ div.inlining {
     /* 5px rounded corners */
     width: 25%;
     height: auto;
-    /* display: inline-block; */
+    display: inline-block;
     margin: 7px;
 }
 
@@ -89,7 +109,7 @@ div.container {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     transition: 0.3s;
     border-radius: 15px;
-    /* 5px rounded corners */
+    /* 15px rounded corners */
     width: 35%;
     height: auto;
     display: inline-block;
@@ -108,6 +128,10 @@ div.container {
 .about-card img {
     /* border-radius: 15px 15px 0 0; */
     display: inline-block;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -4914,7 +4938,7 @@ sup {
 }
 
 #particles-js {
-    background: #13181f;
+    background: #0b0e14;
     display: flex;
     vertical-align: bottom;
     width: 100%;
@@ -4934,7 +4958,7 @@ sup {
 
 .logo-scaling {
     position: relative;
-    bottom: 30px;
+    bottom: 45px;
     right : 15px;
     width: 50%;
     height: auto;
@@ -4953,18 +4977,18 @@ sup {
 }
 
 .header .site-title {
-    font-size: 50px;
+    font-size: 6.5vh;
     display: block;
     line-height: 1;
     position: relative;
-    bottom: 25px;
+    bottom: 3.28vh;
     color: #fff
 }
 
 @media only screen and (min-width:550px) {
     .header .site-title {
         margin: 0;
-        font-size: 52px;
+        font-size: 6.83vh;
     }
 }
 
@@ -4980,7 +5004,7 @@ sup {
 
 @media only screen and (min-width:550px) {
     .header .site-description {
-        font-size: 35px;
+        font-size: 4.6vh;
 
     }
 }
@@ -5008,7 +5032,7 @@ sup {
 
 @media only screen and (min-width:550px) {
     .header-links .link {
-        font-size: 20px
+        font-size: 2.3vh
     }
 }
 
@@ -5084,9 +5108,9 @@ sup {
 
 @media only screen and (min-width:550px) {
     .header-icons .icon {
-        width: 35px;
-        height: 35px;
-        font-size: 35px;
+        width: 4.6vh;
+        height: 4.6vh;
+        font-size: 4.6vh;
     }
 }
 
@@ -5148,7 +5172,10 @@ sup {
         width: 80%
     }
 }
-
+#body-scaling{
+    /* zoom: 1.25;
+    -moz-transform: scale(1.25); */
+}
 .body-coloring {
     background-color: #272d36;
 }
