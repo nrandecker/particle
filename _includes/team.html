@@ -1,28 +1,80 @@
 <div class="user-details">
-    <h1> Our Team </h1>
+    <h1> Spotlight </h1>
+    <h3> Refresh the page and see the magic unfold..</h3>
 </div>
-{% assign min = 45 %}
-{% assign max = 80 %}
-{% assign diff = max | minus: min %}
-{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+<script type="text/javascript">
+// posts = members
+// post = member
+// title = name
+// url = git
+    var emails = [{% for member in site.members %}"{{ member.email }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var names = [{% for member in site.members %}"{{ member.name }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var photos = [{% for member in site.members %}"{{ member.picture }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var quotes = [{% for member in site.members %}"{{ member.quote }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var facebooks = [{% for member in site.members %}"{{ member.facebook }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+    var githubs = [{% for member in site.members %}"{{ member.github }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+</script>
+<script type="text/javascript">
+
+    var randomIndexUsed = [];
+    var counter = 0;
+    var numberOfPosts = 4;
+
+    document.write('<div class="user">'); // added 
+    while (counter < numberOfPosts)
+    {
+        var randomIndex;
+        var email;
+        var name;
+        var photo;
+        var quote;
+        var facebook;
+        var github;
+
+        randomIndex = Math.floor(Math.random() * names.length);
+
+        if (randomIndexUsed.indexOf(randomIndex) == "-1")
+        {
+            email = emails[randomIndex];
+            name = names[randomIndex];
+            photo = photos[randomIndex];
+            quote = quotes[randomIndex];
+            facebook = facebooks[randomIndex];
+            github = githubs[randomIndex];
+
+            if (counter < numberOfPosts )
+            {
+                document.write('<div class="card">');
+                document.write('<img src="'+photo+'" alt="Avatar" style="width:150px">');
+                document.write('<div class="container"><h3><b>'+ name + '</b></h3><p>'+ quote + '</p></div>');
+                document.write('<div class="header-icons-small"><a aria-label="Send email" href="mailto:'+ email +'"><i class="icon-small fa fa-envelope"></i></a><a aria-label="My Github" target="_blank" href="'+ github +'"><i class="icon-small fa fa-github-alt" aria-hidden="true"></i></a><a aria-label="My Facebook" target="_blank" href="'+ facebook +'"><i class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a></div>');
+                document.write('</div>');
+                // document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
+            }
+
+            randomIndexUsed.push(randomIndex);
+
+            counter++;
+        }
+    }
+    document.write('</div>')
+
+</script>
 
 
-<div class="user">
+<!-- <div class="user">
     <div class="card">
         <img src="https://github.com/TextZip.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h3><b>Jai Krishna</b></h3>
-            <p>Some Intro</p>
-        </div>
-        <div class="header-icons-small">
-            <a aria-label="Send email" href="mailto:textzip@gmail.com"><i
-                    class="icon-small fa fa-envelope"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://github.com/TextZip"><i
-                    class="icon-small fa fa-github-alt" aria-hidden="true"></i></a>
-            <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/jai.krishna.7982"><i
-                    class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
+        <div class="container"><h3><b>Jai Krishna</b></h3><p>Some Intro</p></div>
+        <div class="header-icons-small"><a aria-label="Send email" href="mailto:textzip@gmail.com"><i class="icon-small fa fa-envelope"></i></a><a aria-label="My Github" target="_blank" href="https://github.com/TextZip"><i class="icon-small fa fa-github-alt" aria-hidden="true"></i></a><a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/jai.krishna.7982"><i class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a></div>
     </div>
+
     <div class="card">
         <img src="https://github.com/adeecc.png" alt="Avatar" style="width:100%">
         <div class="container">
@@ -69,4 +121,4 @@
                     class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a>
         </div>
     </div>
-</div>
+</div> -->
