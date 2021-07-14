@@ -6,7 +6,7 @@ description: A blog about lorem ipsum dolor sit amet
 
 # User settings
 username: Automation & Robotics Club 
-user_description: Minim nostrud anim nulla esse esse laborum. Magna mollit id elit Lorem officia elit enim labore laborum. Ea cillum adipisicing dolore sint proident voluptate. Nisi culpa sint exercitation excepteur amet esse dolor ullamco aute cillum.Minim nostrud anim nulla esse esse laborum. Magna mollit id elit Lorem officia elit enim labore laborum. Ea cillum adipisicing dolore sint proident voluptate. Nisi culpa sint exercitation excepteur amet esse dolor ullamco aute cillum.
+user_description: The Automation and Robotics Club (ARC) is a part of the Technical Senate of BITS Pilani, Hyderabad Campus. If inquisitiveness and innovation are your assets, then you've found the right place for yourself. We take up promising challenges, workshops and projects which combine the aspects of electronics, mechanics and programming. The only prerequisite to joining us - the desire to quench curiosity and express yourself
 user_title: Electronics | Design | Programming
 email: arc@hyderabad.bits-pilani.ac.in
 levelup_url : "https://arc-bphc.github.io/site/resources/2021-07-06-Level-0-1.html"
@@ -16,10 +16,29 @@ resources_url : "https://arc-bphc.github.io/site/resources/"
 twitter_username: lorem_ipsum
 github_username:  arc-bphc
 gplus_username:  lorem_ipsum
-arc_logo : "assets/img/arclogo_bw_2021.png"
+arc_logo : "assets/img/ARC logo white.png"
 nvidia_logo : "assets/img/1_46tz-SDJRkv16vXdz0TAWA.png"
 # Google-analytics
 google-analytics:
   id: "G-ZRC73S41VF"
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+author:
+  type      : person # "person" (default), "organization"
+  name      : Automation  & Robotics Club
+  url       : https://arc-bphc.github.io
+  avatar    : /assets/images/fish.jpg # path or url of avatar image (square)
+  bio       : I am an amazing person.
+  email     : arc@hyderabad.bits-pilani.ac.in
+  facebook  : automationandroboticsclub # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+  medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+  zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+  douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : arc-bphc # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
