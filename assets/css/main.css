@@ -11,27 +11,15 @@ body {
     margin: 0
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
     display: block
 }
-
 
 /* card template */
 
 div.inline-display {
     display: inline-flex;
-    width : 1240px;
-
+    width: 1240px;
 }
 
 iframe.formatting-embedded {
@@ -41,26 +29,31 @@ iframe.formatting-embedded {
     bottom: 25px;
     /* border-radius: 15px; */
     overflow: hidden;
-    margin-top: -5px; /*Cut off top bar*/
-    margin-bottom: -130px; /* Cut off bottom bar */
+    margin-top: -5px;
+    /*Cut off top bar*/
+    margin-bottom: -130px;
+    /* Cut off bottom bar */
 }
+
 iframe.formatting-embedded-form {
     padding: 20px;
     zoom: 1.08;
     -moz-transform: scale(1.08);
     position: relative;
     right: 40px;
-    bottom : 32px;
+    bottom: 32px;
     /* border-radius: 15px; */
     overflow: hidden;
-    margin-top: -5px; /*Cut off top bar*/
-    margin-bottom: -200px; /* Cut off bottom bar */
+    margin-top: -5px;
+    /*Cut off top bar*/
+    margin-bottom: -200px;
+    /* Cut off bottom bar */
     /* margin-right: -5px; Cut off bottom bar */
-
 }
+
 div.inlining {
     display: inline-flex;
-    overflow: hidden;    
+    overflow: hidden;
     /* border: 2px solid black; Just for aesthetics, can be removed */
 }
 
@@ -76,23 +69,20 @@ div.inlining {
     margin: 7px;
 }
 
-
 /* On mouse-over, add a deeper shadow */
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.15);
 }
 
-
 /* Add some padding inside the card container */
 
 div.container {
     padding: 1px 5px;
     position: relative;
-    bottom : 10px;
+    bottom: 10px;
     /* border-radius: 25px 25px 0 0; */
 }
-
 
 /* Add rounded corners to the top left and the top right corner of the image */
 
@@ -100,7 +90,6 @@ div.container {
     border-radius: 15px 15px 0 0;
     display: inline-block;
 }
-
 
 /* AboutUs card template */
 
@@ -119,9 +108,6 @@ div.container {
 .about-card:hover {
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.15);
 }
-
-
-
 
 /* Add rounded corners to the top left and the top right corner of the image */
 
@@ -149,10 +135,7 @@ hr {
     overflow: visible
 }
 
-code,
-kbd,
-pre,
-samp {
+code, kbd, pre, samp {
     font-family: monospace, monospace;
     font-size: 1em
 }
@@ -167,8 +150,7 @@ abbr[title] {
     text-decoration: underline dotted
 }
 
-b,
-strong {
+b, strong {
     font-weight: bolder
 }
 
@@ -185,8 +167,7 @@ small {
     font-size: 80%
 }
 
-sub,
-sup {
+sub, sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -201,9 +182,7 @@ sup {
     top: -.5em
 }
 
-audio,
-canvas,
-video {
+audio, canvas, video {
     display: inline-block
 }
 
@@ -220,46 +199,31 @@ svg:not(:root) {
     overflow: hidden
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
+button, input, optgroup, select, textarea {
     font-family: sans-serif;
     font-size: 100%;
     line-height: 1.15;
     margin: 0
 }
 
-button,
-input {
+button, input {
     overflow: visible
 }
 
-button,
-select {
+button, select {
     text-transform: none
 }
 
-[type=reset],
-[type=submit],
-button,
-html [type=button] {
+[type=reset], [type=submit], button, html [type=button] {
     -webkit-appearance: button
 }
 
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner,
-button::-moz-focus-inner {
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
     border-style: none;
     padding: 0
 }
 
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring,
-button:-moz-focusring {
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
     outline: 1px dotted ButtonText
 }
 
@@ -283,15 +247,12 @@ textarea {
     overflow: auto
 }
 
-[type=checkbox],
-[type=radio],
-legend {
+[type=checkbox], [type=radio], legend {
     box-sizing: border-box;
     padding: 0
 }
 
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
     height: auto
 }
 
@@ -300,8 +261,7 @@ legend {
     outline-offset: -2px
 }
 
-[type=search]::-webkit-search-cancel-button,
-[type=search]::-webkit-search-decoration {
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
     -webkit-appearance: none
 }
 
@@ -314,11 +274,9 @@ summary {
     display: list-item
 }
 
-[hidden],
-template {
+[hidden], template {
     display: none
 }
-
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -348,8 +306,7 @@ template {
 }
 
 @-webkit-keyframes pulse {
-    0%,
-    to {
+    0%, to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
         filter: alpha(opacity=40);
         opacity: .4;
@@ -365,8 +322,7 @@ template {
 }
 
 @keyframes pulse {
-    0%,
-    to {
+    0%, to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
         filter: alpha(opacity=40);
         opacity: .4;
@@ -457,8 +413,7 @@ template {
     float: left
 }
 
-.fa-pull-right,
-.pull-right {
+.fa-pull-right, .pull-right {
     float: right
 }
 
@@ -527,11 +482,7 @@ template {
     transform: scale(1, -1)
 }
 
-:root .fa-flip-horizontal,
- :root .fa-flip-vertical,
- :root .fa-rotate-180,
- :root .fa-rotate-270,
- :root .fa-rotate-90 {
+:root .fa-flip-horizontal, :root .fa-flip-vertical, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-rotate-90 {
     filter: none
 }
 
@@ -544,8 +495,7 @@ template {
     vertical-align: middle
 }
 
-.fa-stack-1x,
-.fa-stack-2x {
+.fa-stack-1x, .fa-stack-2x {
     position: absolute;
     left: 0;
     width: 100%;
@@ -616,9 +566,7 @@ template {
     content: "\f00c"
 }
 
-.fa-close:before,
-.fa-remove:before,
-.fa-times:before {
+.fa-close:before, .fa-remove:before, .fa-times:before {
     content: "\f00d"
 }
 
@@ -638,8 +586,7 @@ template {
     content: "\f012"
 }
 
-.fa-cog:before,
-.fa-gear:before {
+.fa-cog:before, .fa-gear:before {
     content: "\f013"
 }
 
@@ -683,8 +630,7 @@ template {
     content: "\f01d"
 }
 
-.fa-repeat:before,
-.fa-rotate-right:before {
+.fa-repeat:before, .fa-rotate-right:before {
     content: "\f01e"
 }
 
@@ -792,8 +738,7 @@ template {
     content: "\f03a"
 }
 
-.fa-dedent:before,
-.fa-outdent:before {
+.fa-dedent:before, .fa-outdent:before {
     content: "\f03b"
 }
 
@@ -805,9 +750,7 @@ template {
     content: "\f03d"
 }
 
-.fa-image:before,
-.fa-photo:before,
-.fa-picture-o:before {
+.fa-image:before, .fa-photo:before, .fa-picture-o:before {
     content: "\f03e"
 }
 
@@ -827,8 +770,7 @@ template {
     content: "\f043"
 }
 
-.fa-edit:before,
-.fa-pencil-square-o:before {
+.fa-edit:before, .fa-pencil-square-o:before {
     content: "\f044"
 }
 
@@ -948,8 +890,7 @@ template {
     content: "\f063"
 }
 
-.fa-mail-forward:before,
-.fa-share:before {
+.fa-mail-forward:before, .fa-share:before {
     content: "\f064"
 }
 
@@ -997,8 +938,7 @@ template {
     content: "\f070"
 }
 
-.fa-exclamation-triangle:before,
-.fa-warning:before {
+.fa-exclamation-triangle:before, .fa-warning:before {
     content: "\f071"
 }
 
@@ -1054,8 +994,7 @@ template {
     content: "\f07e"
 }
 
-.fa-bar-chart-o:before,
-.fa-bar-chart:before {
+.fa-bar-chart-o:before, .fa-bar-chart:before {
     content: "\f080"
 }
 
@@ -1075,8 +1014,7 @@ template {
     content: "\f084"
 }
 
-.fa-cogs:before,
-.fa-gears:before {
+.fa-cogs:before, .fa-gears:before {
     content: "\f085"
 }
 
@@ -1156,8 +1094,7 @@ template {
     content: "\f099"
 }
 
-.fa-facebook-f:before,
-.fa-facebook:before {
+.fa-facebook-f:before, .fa-facebook:before {
     content: "\f09a"
 }
 
@@ -1173,8 +1110,7 @@ template {
     content: "\f09d"
 }
 
-.fa-feed:before,
-.fa-rss:before {
+.fa-feed:before, .fa-rss:before {
     content: "\f09e"
 }
 
@@ -1250,13 +1186,11 @@ template {
     content: "\f0b2"
 }
 
-.fa-group:before,
-.fa-users:before {
+.fa-group:before, .fa-users:before {
     content: "\f0c0"
 }
 
-.fa-chain:before,
-.fa-link:before {
+.fa-chain:before, .fa-link:before {
     content: "\f0c1"
 }
 
@@ -1268,13 +1202,11 @@ template {
     content: "\f0c3"
 }
 
-.fa-cut:before,
-.fa-scissors:before {
+.fa-cut:before, .fa-scissors:before {
     content: "\f0c4"
 }
 
-.fa-copy:before,
-.fa-files-o:before {
+.fa-copy:before, .fa-files-o:before {
     content: "\f0c5"
 }
 
@@ -1282,8 +1214,7 @@ template {
     content: "\f0c6"
 }
 
-.fa-floppy-o:before,
-.fa-save:before {
+.fa-floppy-o:before, .fa-save:before {
     content: "\f0c7"
 }
 
@@ -1291,9 +1222,7 @@ template {
     content: "\f0c8"
 }
 
-.fa-bars:before,
-.fa-navicon:before,
-.fa-reorder:before {
+.fa-bars:before, .fa-navicon:before, .fa-reorder:before {
     content: "\f0c9"
 }
 
@@ -1365,18 +1294,15 @@ template {
     content: "\f0db"
 }
 
-.fa-sort:before,
-.fa-unsorted:before {
+.fa-sort:before, .fa-unsorted:before {
     content: "\f0dc"
 }
 
-.fa-sort-desc:before,
-.fa-sort-down:before {
+.fa-sort-desc:before, .fa-sort-down:before {
     content: "\f0dd"
 }
 
-.fa-sort-asc:before,
-.fa-sort-up:before {
+.fa-sort-asc:before, .fa-sort-up:before {
     content: "\f0de"
 }
 
@@ -1388,18 +1314,15 @@ template {
     content: "\f0e1"
 }
 
-.fa-rotate-left:before,
-.fa-undo:before {
+.fa-rotate-left:before, .fa-undo:before {
     content: "\f0e2"
 }
 
-.fa-gavel:before,
-.fa-legal:before {
+.fa-gavel:before, .fa-legal:before {
     content: "\f0e3"
 }
 
-.fa-dashboard:before,
-.fa-tachometer:before {
+.fa-dashboard:before, .fa-tachometer:before {
     content: "\f0e4"
 }
 
@@ -1411,8 +1334,7 @@ template {
     content: "\f0e6"
 }
 
-.fa-bolt:before,
-.fa-flash:before {
+.fa-bolt:before, .fa-flash:before {
     content: "\f0e7"
 }
 
@@ -1424,8 +1346,7 @@ template {
     content: "\f0e9"
 }
 
-.fa-clipboard:before,
-.fa-paste:before {
+.fa-clipboard:before, .fa-paste:before {
     content: "\f0ea"
 }
 
@@ -1549,8 +1470,7 @@ template {
     content: "\f10a"
 }
 
-.fa-mobile-phone:before,
-.fa-mobile:before {
+.fa-mobile-phone:before, .fa-mobile:before {
     content: "\f10b"
 }
 
@@ -1574,8 +1494,7 @@ template {
     content: "\f111"
 }
 
-.fa-mail-reply:before,
-.fa-reply:before {
+.fa-mail-reply:before, .fa-reply:before {
     content: "\f112"
 }
 
@@ -1627,14 +1546,11 @@ template {
     content: "\f121"
 }
 
-.fa-mail-reply-all:before,
-.fa-reply-all:before {
+.fa-mail-reply-all:before, .fa-reply-all:before {
     content: "\f122"
 }
 
-.fa-star-half-empty:before,
-.fa-star-half-full:before,
-.fa-star-half-o:before {
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
     content: "\f123"
 }
 
@@ -1650,8 +1566,7 @@ template {
     content: "\f126"
 }
 
-.fa-chain-broken:before,
-.fa-unlink:before {
+.fa-chain-broken:before, .fa-unlink:before {
     content: "\f127"
 }
 
@@ -1803,23 +1718,19 @@ template {
     content: "\f14e"
 }
 
-.fa-caret-square-o-down:before,
-.fa-toggle-down:before {
+.fa-caret-square-o-down:before, .fa-toggle-down:before {
     content: "\f150"
 }
 
-.fa-caret-square-o-up:before,
-.fa-toggle-up:before {
+.fa-caret-square-o-up:before, .fa-toggle-up:before {
     content: "\f151"
 }
 
-.fa-caret-square-o-right:before,
-.fa-toggle-right:before {
+.fa-caret-square-o-right:before, .fa-toggle-right:before {
     content: "\f152"
 }
 
-.fa-eur:before,
-.fa-euro:before {
+.fa-eur:before, .fa-euro:before {
     content: "\f153"
 }
 
@@ -1827,36 +1738,27 @@ template {
     content: "\f154"
 }
 
-.fa-dollar:before,
-.fa-usd:before {
+.fa-dollar:before, .fa-usd:before {
     content: "\f155"
 }
 
-.fa-inr:before,
-.fa-rupee:before {
+.fa-inr:before, .fa-rupee:before {
     content: "\f156"
 }
 
-.fa-cny:before,
-.fa-jpy:before,
-.fa-rmb:before,
-.fa-yen:before {
+.fa-cny:before, .fa-jpy:before, .fa-rmb:before, .fa-yen:before {
     content: "\f157"
 }
 
-.fa-rouble:before,
-.fa-rub:before,
-.fa-ruble:before {
+.fa-rouble:before, .fa-rub:before, .fa-ruble:before {
     content: "\f158"
 }
 
-.fa-krw:before,
-.fa-won:before {
+.fa-krw:before, .fa-won:before {
     content: "\f159"
 }
 
-.fa-bitcoin:before,
-.fa-btc:before {
+.fa-bitcoin:before, .fa-btc:before {
     content: "\f15a"
 }
 
@@ -2012,8 +1914,7 @@ template {
     content: "\f183"
 }
 
-.fa-gittip:before,
-.fa-gratipay:before {
+.fa-gittip:before, .fa-gratipay:before {
     content: "\f184"
 }
 
@@ -2061,8 +1962,7 @@ template {
     content: "\f190"
 }
 
-.fa-caret-square-o-left:before,
-.fa-toggle-left:before {
+.fa-caret-square-o-left:before, .fa-toggle-left:before {
     content: "\f191"
 }
 
@@ -2078,8 +1978,7 @@ template {
     content: "\f194"
 }
 
-.fa-try:before,
-.fa-turkish-lira:before {
+.fa-try:before, .fa-turkish-lira:before {
     content: "\f195"
 }
 
@@ -2107,14 +2006,11 @@ template {
     content: "\f19b"
 }
 
-.fa-bank:before,
-.fa-institution:before,
-.fa-university:before {
+.fa-bank:before, .fa-institution:before, .fa-university:before {
     content: "\f19c"
 }
 
-.fa-graduation-cap:before,
-.fa-mortar-board:before {
+.fa-graduation-cap:before, .fa-mortar-board:before {
     content: "\f19d"
 }
 
@@ -2218,13 +2114,11 @@ template {
     content: "\f1b8"
 }
 
-.fa-automobile:before,
-.fa-car:before {
+.fa-automobile:before, .fa-car:before {
     content: "\f1b9"
 }
 
-.fa-cab:before,
-.fa-taxi:before {
+.fa-cab:before, .fa-taxi:before {
     content: "\f1ba"
 }
 
@@ -2264,24 +2158,19 @@ template {
     content: "\f1c4"
 }
 
-.fa-file-image-o:before,
-.fa-file-photo-o:before,
-.fa-file-picture-o:before {
+.fa-file-image-o:before, .fa-file-photo-o:before, .fa-file-picture-o:before {
     content: "\f1c5"
 }
 
-.fa-file-archive-o:before,
-.fa-file-zip-o:before {
+.fa-file-archive-o:before, .fa-file-zip-o:before {
     content: "\f1c6"
 }
 
-.fa-file-audio-o:before,
-.fa-file-sound-o:before {
+.fa-file-audio-o:before, .fa-file-sound-o:before {
     content: "\f1c7"
 }
 
-.fa-file-movie-o:before,
-.fa-file-video-o:before {
+.fa-file-movie-o:before, .fa-file-video-o:before {
     content: "\f1c8"
 }
 
@@ -2301,11 +2190,7 @@ template {
     content: "\f1cc"
 }
 
-.fa-life-bouy:before,
-.fa-life-buoy:before,
-.fa-life-ring:before,
-.fa-life-saver:before,
-.fa-support:before {
+.fa-life-bouy:before, .fa-life-buoy:before, .fa-life-ring:before, .fa-life-saver:before, .fa-support:before {
     content: "\f1cd"
 }
 
@@ -2313,14 +2198,11 @@ template {
     content: "\f1ce"
 }
 
-.fa-ra:before,
-.fa-rebel:before,
-.fa-resistance:before {
+.fa-ra:before, .fa-rebel:before, .fa-resistance:before {
     content: "\f1d0"
 }
 
-.fa-empire:before,
-.fa-ge:before {
+.fa-empire:before, .fa-ge:before {
     content: "\f1d1"
 }
 
@@ -2332,9 +2214,7 @@ template {
     content: "\f1d3"
 }
 
-.fa-hacker-news:before,
-.fa-y-combinator-square:before,
-.fa-yc-square:before {
+.fa-hacker-news:before, .fa-y-combinator-square:before, .fa-yc-square:before {
     content: "\f1d4"
 }
 
@@ -2346,18 +2226,15 @@ template {
     content: "\f1d6"
 }
 
-.fa-wechat:before,
-.fa-weixin:before {
+.fa-wechat:before, .fa-weixin:before {
     content: "\f1d7"
 }
 
-.fa-paper-plane:before,
-.fa-send:before {
+.fa-paper-plane:before, .fa-send:before {
     content: "\f1d8"
 }
 
-.fa-paper-plane-o:before,
-.fa-send-o:before {
+.fa-paper-plane-o:before, .fa-send-o:before {
     content: "\f1d9"
 }
 
@@ -2393,8 +2270,7 @@ template {
     content: "\f1e2"
 }
 
-.fa-futbol-o:before,
-.fa-soccer-ball-o:before {
+.fa-futbol-o:before, .fa-soccer-ball-o:before {
     content: "\f1e3"
 }
 
@@ -2546,9 +2422,7 @@ template {
     content: "\f20a"
 }
 
-.fa-ils:before,
-.fa-shekel:before,
-.fa-sheqel:before {
+.fa-ils:before, .fa-shekel:before, .fa-sheqel:before {
     content: "\f20b"
 }
 
@@ -2636,8 +2510,7 @@ template {
     content: "\f223"
 }
 
-.fa-intersex:before,
-.fa-transgender:before {
+.fa-intersex:before, .fa-transgender:before {
     content: "\f224"
 }
 
@@ -2701,8 +2574,7 @@ template {
     content: "\f235"
 }
 
-.fa-bed:before,
-.fa-hotel:before {
+.fa-bed:before, .fa-hotel:before {
     content: "\f236"
 }
 
@@ -2722,8 +2594,7 @@ template {
     content: "\f23a"
 }
 
-.fa-y-combinator:before,
-.fa-yc:before {
+.fa-y-combinator:before, .fa-yc:before {
     content: "\f23b"
 }
 
@@ -2739,29 +2610,23 @@ template {
     content: "\f23e"
 }
 
-.fa-battery-4:before,
-.fa-battery-full:before,
-.fa-battery:before {
+.fa-battery-4:before, .fa-battery-full:before, .fa-battery:before {
     content: "\f240"
 }
 
-.fa-battery-3:before,
-.fa-battery-three-quarters:before {
+.fa-battery-3:before, .fa-battery-three-quarters:before {
     content: "\f241"
 }
 
-.fa-battery-2:before,
-.fa-battery-half:before {
+.fa-battery-2:before, .fa-battery-half:before {
     content: "\f242"
 }
 
-.fa-battery-1:before,
-.fa-battery-quarter:before {
+.fa-battery-1:before, .fa-battery-quarter:before {
     content: "\f243"
 }
 
-.fa-battery-0:before,
-.fa-battery-empty:before {
+.fa-battery-0:before, .fa-battery-empty:before {
     content: "\f244"
 }
 
@@ -2809,18 +2674,15 @@ template {
     content: "\f250"
 }
 
-.fa-hourglass-1:before,
-.fa-hourglass-start:before {
+.fa-hourglass-1:before, .fa-hourglass-start:before {
     content: "\f251"
 }
 
-.fa-hourglass-2:before,
-.fa-hourglass-half:before {
+.fa-hourglass-2:before, .fa-hourglass-half:before {
     content: "\f252"
 }
 
-.fa-hourglass-3:before,
-.fa-hourglass-end:before {
+.fa-hourglass-3:before, .fa-hourglass-end:before {
     content: "\f253"
 }
 
@@ -2828,13 +2690,11 @@ template {
     content: "\f254"
 }
 
-.fa-hand-grab-o:before,
-.fa-hand-rock-o:before {
+.fa-hand-grab-o:before, .fa-hand-rock-o:before {
     content: "\f255"
 }
 
-.fa-hand-paper-o:before,
-.fa-hand-stop-o:before {
+.fa-hand-paper-o:before, .fa-hand-stop-o:before {
     content: "\f256"
 }
 
@@ -2918,8 +2778,7 @@ template {
     content: "\f26b"
 }
 
-.fa-television:before,
-.fa-tv:before {
+.fa-television:before, .fa-tv:before {
     content: "\f26c"
 }
 
@@ -3123,14 +2982,11 @@ template {
     content: "\f2a2"
 }
 
-.fa-american-sign-language-interpreting:before,
-.fa-asl-interpreting:before {
+.fa-american-sign-language-interpreting:before, .fa-asl-interpreting:before {
     content: "\f2a3"
 }
 
-.fa-deaf:before,
-.fa-deafness:before,
-.fa-hard-of-hearing:before {
+.fa-deaf:before, .fa-deafness:before, .fa-hard-of-hearing:before {
     content: "\f2a4"
 }
 
@@ -3142,8 +2998,7 @@ template {
     content: "\f2a6"
 }
 
-.fa-sign-language:before,
-.fa-signing:before {
+.fa-sign-language:before, .fa-signing:before {
     content: "\f2a7"
 }
 
@@ -3187,13 +3042,11 @@ template {
     content: "\f2b2"
 }
 
-.fa-google-plus-circle:before,
-.fa-google-plus-official:before {
+.fa-google-plus-circle:before, .fa-google-plus-official:before {
     content: "\f2b3"
 }
 
-.fa-fa:before,
-.fa-font-awesome:before {
+.fa-fa:before, .fa-font-awesome:before {
     content: "\f2b4"
 }
 
@@ -3221,13 +3074,11 @@ template {
     content: "\f2ba"
 }
 
-.fa-address-card:before,
-.fa-vcard:before {
+.fa-address-card:before, .fa-vcard:before {
     content: "\f2bb"
 }
 
-.fa-address-card-o:before,
-.fa-vcard-o:before {
+.fa-address-card-o:before, .fa-vcard-o:before {
     content: "\f2bc"
 }
 
@@ -3247,13 +3098,11 @@ template {
     content: "\f2c1"
 }
 
-.fa-drivers-license:before,
-.fa-id-card:before {
+.fa-drivers-license:before, .fa-id-card:before {
     content: "\f2c2"
 }
 
-.fa-drivers-license-o:before,
-.fa-id-card-o:before {
+.fa-drivers-license-o:before, .fa-id-card-o:before {
     content: "\f2c3"
 }
 
@@ -3269,29 +3118,23 @@ template {
     content: "\f2c6"
 }
 
-.fa-thermometer-4:before,
-.fa-thermometer-full:before,
-.fa-thermometer:before {
+.fa-thermometer-4:before, .fa-thermometer-full:before, .fa-thermometer:before {
     content: "\f2c7"
 }
 
-.fa-thermometer-3:before,
-.fa-thermometer-three-quarters:before {
+.fa-thermometer-3:before, .fa-thermometer-three-quarters:before {
     content: "\f2c8"
 }
 
-.fa-thermometer-2:before,
-.fa-thermometer-half:before {
+.fa-thermometer-2:before, .fa-thermometer-half:before {
     content: "\f2c9"
 }
 
-.fa-thermometer-1:before,
-.fa-thermometer-quarter:before {
+.fa-thermometer-1:before, .fa-thermometer-quarter:before {
     content: "\f2ca"
 }
 
-.fa-thermometer-0:before,
-.fa-thermometer-empty:before {
+.fa-thermometer-0:before, .fa-thermometer-empty:before {
     content: "\f2cb"
 }
 
@@ -3299,9 +3142,7 @@ template {
     content: "\f2cc"
 }
 
-.fa-bath:before,
-.fa-bathtub:before,
-.fa-s15:before {
+.fa-bath:before, .fa-bathtub:before, .fa-s15:before {
     content: "\f2cd"
 }
 
@@ -3321,13 +3162,11 @@ template {
     content: "\f2d2"
 }
 
-.fa-times-rectangle:before,
-.fa-window-close:before {
+.fa-times-rectangle:before, .fa-window-close:before {
     content: "\f2d3"
 }
 
-.fa-times-rectangle-o:before,
-.fa-window-close-o:before {
+.fa-times-rectangle-o:before, .fa-window-close-o:before {
     content: "\f2d4"
 }
 
@@ -3386,8 +3225,7 @@ template {
     border: 0
 }
 
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
+.sr-only-focusable:active, .sr-only-focusable:focus {
     position: static;
     width: auto;
     height: auto;
@@ -3404,8 +3242,7 @@ template {
     font-style: normal
 }
 
-[class*=" devicon-"],
-[class^=devicon-] {
+[class*=" devicon-"], [class^=devicon-] {
     font-family: devicon;
     speak: none;
     font-style: normal;
@@ -3521,18 +3358,15 @@ template {
     content: "\e925"
 }
 
-.devicon-facebook-original:before,
-.devicon-facebook-plain:before {
+.devicon-facebook-original:before, .devicon-facebook-plain:before {
     content: "\e91c"
 }
 
-.devicon-typescript-original:before,
-.devicon-typescript-plain:before {
+.devicon-typescript-original:before, .devicon-typescript-plain:before {
     content: "\e920"
 }
 
-.devicon-babel-original:before,
-.devicon-babel-plain:before {
+.devicon-babel-original:before, .devicon-babel-plain:before {
     content: "\e921"
 }
 
@@ -3556,23 +3390,19 @@ template {
     content: "\e917"
 }
 
-.devicon-ssh-original-wordmark:before,
-.devicon-ssh-plain-wordmark:before {
+.devicon-ssh-original-wordmark:before, .devicon-ssh-plain-wordmark:before {
     content: "\e916"
 }
 
-.devicon-ssh-original:before,
-.devicon-ssh-plain:before {
+.devicon-ssh-original:before, .devicon-ssh-plain:before {
     content: "\e915"
 }
 
-.devicon-sourcetree-original-wordmark:before,
-.devicon-sourcetree-plain-wordmark:before {
+.devicon-sourcetree-original-wordmark:before, .devicon-sourcetree-plain-wordmark:before {
     content: "\e914"
 }
 
-.devicon-sourcetree-original:before,
-.devicon-sourcetree-plain:before {
+.devicon-sourcetree-original:before, .devicon-sourcetree-plain:before {
     content: "\e913"
 }
 
@@ -3624,13 +3454,11 @@ template {
     content: "\e907"
 }
 
-.devicon-github-original-wordmark:before,
-.devicon-github-plain-wordmark:before {
+.devicon-github-original-wordmark:before, .devicon-github-plain-wordmark:before {
     content: "\e90a"
 }
 
-.devicon-github-original:before,
-.devicon-github-plain:before {
+.devicon-github-original:before, .devicon-github-plain:before {
     content: "\e909"
 }
 
@@ -3638,23 +3466,19 @@ template {
     content: "\e90c"
 }
 
-.devicon-confluence-original-wordmark:before,
-.devicon-confluence-plain-wordmark:before {
+.devicon-confluence-original-wordmark:before, .devicon-confluence-plain-wordmark:before {
     content: "\e90e"
 }
 
-.devicon-confluence-original:before,
-.devicon-confluence-plain:before {
+.devicon-confluence-original:before, .devicon-confluence-plain:before {
     content: "\e90d"
 }
 
-.devicon-bitbucket-original-wordmark:before,
-.devicon-bitbucket-plain-wordmark:before {
+.devicon-bitbucket-original-wordmark:before, .devicon-bitbucket-plain-wordmark:before {
     content: "\e910"
 }
 
-.devicon-bitbucket-original:before,
-.devicon-bitbucket-plain:before {
+.devicon-bitbucket-original:before, .devicon-bitbucket-plain:before {
     content: "\e90f"
 }
 
@@ -3674,20 +3498,15 @@ template {
     content: "\e63c"
 }
 
-.devicon-jetbrains-line-wordmark:before,
-.devicon-jetbrains-line:before,
-.devicon-jetbrains-plain-wordmark:before,
-.devicon-jetbrains-plain:before {
+.devicon-jetbrains-line-wordmark:before, .devicon-jetbrains-line:before, .devicon-jetbrains-plain-wordmark:before, .devicon-jetbrains-plain:before {
     content: "\e63d"
 }
 
-.devicon-django-line-wordmark:before,
-.devicon-django-line:before {
+.devicon-django-line-wordmark:before, .devicon-django-line:before {
     content: "\e63e"
 }
 
-.devicon-django-plain-wordmark:before,
-.devicon-django-plain:before {
+.devicon-django-plain-wordmark:before, .devicon-django-plain:before {
     content: "\e63f"
 }
 
@@ -3703,33 +3522,27 @@ template {
     content: "\e62b"
 }
 
-.devicon-cplusplus-line-wordmark:before,
-.devicon-cplusplus-line:before {
+.devicon-cplusplus-line-wordmark:before, .devicon-cplusplus-line:before {
     content: "\e634"
 }
 
-.devicon-cplusplus-plain-wordmark:before,
-.devicon-cplusplus-plain:before {
+.devicon-cplusplus-plain-wordmark:before, .devicon-cplusplus-plain:before {
     content: "\e635"
 }
 
-.devicon-csharp-line-wordmark:before,
-.devicon-csharp-line:before {
+.devicon-csharp-line-wordmark:before, .devicon-csharp-line:before {
     content: "\e636"
 }
 
-.devicon-csharp-plain-wordmark:before,
-.devicon-csharp-plain:before {
+.devicon-csharp-plain-wordmark:before, .devicon-csharp-plain:before {
     content: "\e637"
 }
 
-.devicon-c-line-wordmark:before,
-.devicon-c-line:before {
+.devicon-c-line-wordmark:before, .devicon-c-line:before {
     content: "\e638"
 }
 
-.devicon-c-plain-wordmark:before,
-.devicon-c-plain:before {
+.devicon-c-plain-wordmark:before, .devicon-c-plain:before {
     content: "\e639"
 }
 
@@ -3749,10 +3562,7 @@ template {
     content: "\e614"
 }
 
-.devicon-nginx-original-wordmark:before,
-.devicon-nginx-original:before,
-.devicon-nginx-plain-wordmark:before,
-.devicon-nginx-plain:before {
+.devicon-nginx-original-wordmark:before, .devicon-nginx-original:before, .devicon-nginx-plain-wordmark:before, .devicon-nginx-plain:before {
     content: "\e615"
 }
 
@@ -3816,13 +3626,11 @@ template {
     content: "\e609"
 }
 
-.devicon-heroku-line-wordmark:before,
-.devicon-heroku-original-wordmark:before {
+.devicon-heroku-line-wordmark:before, .devicon-heroku-original-wordmark:before {
     content: "\e60a"
 }
 
-.devicon-heroku-line:before,
-.devicon-heroku-original:before {
+.devicon-heroku-line:before, .devicon-heroku-original:before {
     content: "\e60b"
 }
 
@@ -3846,8 +3654,7 @@ template {
     content: "\e61f"
 }
 
-.devicon-amazonwebservices-original:before,
-.devicon-amazonwebservices-plain:before {
+.devicon-amazonwebservices-original:before, .devicon-amazonwebservices-plain:before {
     content: "\e603"
 }
 
@@ -3871,8 +3678,7 @@ template {
     content: "\e61d"
 }
 
-.devicon-appcelerator-original:before,
-.devicon-appcelerator-plain:before {
+.devicon-appcelerator-original:before, .devicon-appcelerator-plain:before {
     content: "\e620"
 }
 
@@ -3880,18 +3686,15 @@ template {
     content: "\e621"
 }
 
-.devicon-apple-original:before,
-.devicon-apple-plain:before {
+.devicon-apple-original:before, .devicon-apple-plain:before {
     content: "\e622"
 }
 
-.devicon-atom-original-wordmark:before,
-.devicon-atom-plain-wordmark:before {
+.devicon-atom-original-wordmark:before, .devicon-atom-plain-wordmark:before {
     content: "\e623"
 }
 
-.devicon-atom-original:before,
-.devicon-atom-plain:before {
+.devicon-atom-original:before, .devicon-atom-plain:before {
     content: "\e624"
 }
 
@@ -3943,13 +3746,11 @@ template {
     content: "\e668"
 }
 
-.devicon-coffeescript-original-wordmark:before,
-.devicon-coffeescript-plain-wordmark:before {
+.devicon-coffeescript-original-wordmark:before, .devicon-coffeescript-plain-wordmark:before {
     content: "\e669"
 }
 
-.devicon-coffeescript-original:before,
-.devicon-coffeescript-plain:before {
+.devicon-coffeescript-original:before, .devicon-coffeescript-plain:before {
     content: "\e66a"
 }
 
@@ -4009,13 +3810,11 @@ template {
     content: "\e7a8"
 }
 
-.devicon-google-original-wordmark:before,
-.devicon-google-plain-wordmark:before {
+.devicon-google-original-wordmark:before, .devicon-google-plain-wordmark:before {
     content: "\e91d"
 }
 
-.devicon-google-original:before,
-.devicon-google-plain:before {
+.devicon-google-original:before, .devicon-google-plain:before {
     content: "\e91e"
 }
 
@@ -4047,8 +3846,7 @@ template {
     content: "\e7f7"
 }
 
-.devicon-ie10-original:before,
-.devicon-ie10-plain:before {
+.devicon-ie10-original:before, .devicon-ie10-plain:before {
     content: "\e7f8"
 }
 
@@ -4144,8 +3942,7 @@ template {
     content: "\eb6a"
 }
 
-.devicon-oracle-original:before,
-.devicon-oracle-plain:before {
+.devicon-oracle-original:before, .devicon-oracle-plain:before {
     content: "\eb6b"
 }
 
@@ -4185,13 +3982,11 @@ template {
     content: "\eba3"
 }
 
-.devicon-react-original-wordmark:before,
-.devicon-react-plain-wordmark:before {
+.devicon-react-original-wordmark:before, .devicon-react-plain-wordmark:before {
     content: "\e600"
 }
 
-.devicon-react-original:before,
-.devicon-react-plain:before {
+.devicon-react-original:before, .devicon-react-plain:before {
     content: "\e601"
 }
 
@@ -4203,28 +3998,23 @@ template {
     content: "\ebca"
 }
 
-.devicon-sass-original:before,
-.devicon-sass-plain:before {
+.devicon-sass-original:before, .devicon-sass-plain:before {
     content: "\ebcb"
 }
 
-.devicon-sequelize-original-wordmark:before,
-.devicon-sequelize-plain-wordmark:before {
+.devicon-sequelize-original-wordmark:before, .devicon-sequelize-plain-wordmark:before {
     content: "\e922"
 }
 
-.devicon-sequelize-original:before,
-.devicon-sequelize-plain:before {
+.devicon-sequelize-original:before, .devicon-sequelize-plain:before {
     content: "\e923"
 }
 
-.devicon-symfony-original-wordmark:before,
-.devicon-symfony-plain-wordmark:before {
+.devicon-symfony-original-wordmark:before, .devicon-symfony-plain-wordmark:before {
     content: "\e602"
 }
 
-.devicon-symfony-original:before,
-.devicon-symfony-plain:before {
+.devicon-symfony-original:before, .devicon-symfony-plain:before {
     content: "\e605"
 }
 
@@ -4244,8 +4034,7 @@ template {
     content: "\ebcf"
 }
 
-.devicon-twitter-original:before,
-.devicon-twitter-plain:before {
+.devicon-twitter-original:before, .devicon-twitter-plain:before {
     content: "\e91f"
 }
 
@@ -4261,13 +4050,11 @@ template {
     content: "\ebf3"
 }
 
-.devicon-windows8-original-wordmark:before,
-.devicon-windows8-plain-wordmark:before {
+.devicon-windows8-original-wordmark:before, .devicon-windows8-plain-wordmark:before {
     content: "\ebf4"
 }
 
-.devicon-windows8-original:before,
-.devicon-windows8-plain:before {
+.devicon-windows8-original:before, .devicon-windows8-plain:before {
     content: "\ebf5"
 }
 
@@ -4295,121 +4082,91 @@ template {
     content: "\ec04"
 }
 
-.devicon-express-original-wordmark.colored,
-.devicon-express-original.colored {
+.devicon-express-original-wordmark.colored, .devicon-express-original.colored {
     color: #444
 }
 
-.devicon-devicon-plain-wordmark.colored,
-.devicon-devicon-plain.colored {
+.devicon-devicon-plain-wordmark.colored, .devicon-devicon-plain.colored {
     color: #60be86
 }
 
-.devicon-intellij-plain-wordmark.colored,
-.devicon-intellij-plain.colored {
+.devicon-intellij-plain-wordmark.colored, .devicon-intellij-plain.colored {
     color: #136ba2
 }
 
-.devicon-pycharm-plain-wordmark.colored,
-.devicon-pycharm-plain.colored {
+.devicon-pycharm-plain-wordmark.colored, .devicon-pycharm-plain.colored {
     color: #4d8548
 }
 
-.devicon-rubymine-plain-wordmark.colored,
-.devicon-rubymine-plain.colored {
+.devicon-rubymine-plain-wordmark.colored, .devicon-rubymine-plain.colored {
     color: #c12c4c
 }
 
-.devicon-webstorm-plain-wordmark.colored,
-.devicon-webstorm-plain.colored {
+.devicon-webstorm-plain-wordmark.colored, .devicon-webstorm-plain.colored {
     color: #2788b5
 }
 
-.devicon-tomcat-line-wordmark.colored,
-.devicon-tomcat-line.colored {
+.devicon-tomcat-line-wordmark.colored, .devicon-tomcat-line.colored {
     color: #d1a41a
 }
 
-.devicon-vuejs-line-wordmark.colored,
-.devicon-vuejs-line.colored,
-.devicon-vuejs-plain-wordmark.colored,
-.devicon-vuejs-plain.colored {
+.devicon-vuejs-line-wordmark.colored, .devicon-vuejs-line.colored, .devicon-vuejs-plain-wordmark.colored, .devicon-vuejs-plain.colored {
     color: #41b883
 }
 
-.devicon-swift-plain-wordmark.colored,
-.devicon-swift-plain.colored {
+.devicon-swift-plain-wordmark.colored, .devicon-swift-plain.colored {
     color: #f05138
 }
 
-.devicon-webpack-plain-wordmark.colored,
-.devicon-webpack-plain.colored {
+.devicon-webpack-plain-wordmark.colored, .devicon-webpack-plain.colored {
     color: #1c78c0
 }
 
-.devicon-visualstudio-plain-wordmark.colored,
-.devicon-visualstudio-plain.colored {
+.devicon-visualstudio-plain-wordmark.colored, .devicon-visualstudio-plain.colored {
     color: #68217a
 }
 
-.devicon-slack-plain-wordmark.colored,
-.devicon-slack-plain.colored {
+.devicon-slack-plain-wordmark.colored, .devicon-slack-plain.colored {
     color: #2d333a
 }
 
-.devicon-gatling-plain-wordmark.colored,
-.devicon-gatling-plain.colored {
+.devicon-gatling-plain-wordmark.colored, .devicon-gatling-plain.colored {
     color: #e77500
 }
 
-.devicon-ssh-original-wordmark.colored,
-.devicon-ssh-original.colored,
-.devicon-ssh-plain-wordmark.colored,
-.devicon-ssh-plain.colored {
+.devicon-ssh-original-wordmark.colored, .devicon-ssh-original.colored, .devicon-ssh-plain-wordmark.colored, .devicon-ssh-plain.colored {
     color: #231f20
 }
 
-.devicon-sourcetree-original-wordmark.colored,
-.devicon-sourcetree-original.colored,
-.devicon-sourcetree-plain-wordmark.colored,
-.devicon-sourcetree-plain.colored {
+.devicon-sourcetree-original-wordmark.colored, .devicon-sourcetree-original.colored, .devicon-sourcetree-plain-wordmark.colored, .devicon-sourcetree-plain.colored {
     color: #205081
 }
 
-.devicon-phpstorm-plain-wordmark.colored,
-.devicon-phpstorm-plain.colored {
+.devicon-phpstorm-plain-wordmark.colored, .devicon-phpstorm-plain.colored {
     color: #5058a6
 }
 
-.devicon-protractor-plain-wordmark.colored,
-.devicon-protractor-plain.colored {
+.devicon-protractor-plain-wordmark.colored, .devicon-protractor-plain.colored {
     color: #b7111d
 }
 
-.devicon-cucumber-plain-wordmark.colored,
-.devicon-cucumber-plain.colored {
+.devicon-cucumber-plain-wordmark.colored, .devicon-cucumber-plain.colored {
     color: #00a818
 }
 
-.devicon-gradle-plain-wordmark.colored,
-.devicon-gradle-plain.colored {
+.devicon-gradle-plain-wordmark.colored, .devicon-gradle-plain.colored {
     color: #02303a
 }
 
-.devicon-jeet-plain-wordmark.colored,
-.devicon-jeet-plain.colored {
+.devicon-jeet-plain-wordmark.colored, .devicon-jeet-plain.colored {
     color: #ff664a
 }
 
-.devicon-gitlab-plain-wordmark.colored,
-.devicon-gitlab-plain.colored {
+.devicon-gitlab-plain-wordmark.colored, .devicon-gitlab-plain.colored {
     color: #e24329
 }
 
-.devicon-github-original-wordmark.colored,
-.devicon-github-original.colored,
-.devicon-github-plain-wordmark.colored,
-.devicon-github-plain.colored {
+.devicon-github-original-wordmark.colored, .devicon-github-original.colored, .devicon-github-plain-wordmark.colored, .devicon-github-plain.colored {
     color: #181616
 }
 
@@ -4417,203 +4174,139 @@ template {
     color: #f7974e
 }
 
-.devicon-bitbucket-original-wordmark.colored,
-.devicon-bitbucket-original.colored,
-.devicon-bitbucket-plain-wordmark.colored,
-.devicon-bitbucket-plain.colored,
-.devicon-confluence-original-wordmark.colored,
-.devicon-confluence-original.colored,
-.devicon-confluence-plain-wordmark.colored,
-.devicon-confluence-plain.colored {
+.devicon-bitbucket-original-wordmark.colored, .devicon-bitbucket-original.colored, .devicon-bitbucket-plain-wordmark.colored, .devicon-bitbucket-plain.colored, .devicon-confluence-original-wordmark.colored, .devicon-confluence-original.colored, .devicon-confluence-plain-wordmark.colored, .devicon-confluence-plain.colored {
     color: #205081
 }
 
-.devicon-amazonwebservices-original.colored,
-.devicon-amazonwebservices-plain-wordmark.colored,
-.devicon-amazonwebservices-plain.colored {
+.devicon-amazonwebservices-original.colored, .devicon-amazonwebservices-plain-wordmark.colored, .devicon-amazonwebservices-plain.colored {
     color: #f7a80d
 }
 
-.devicon-android-plain-wordmark.colored,
-.devicon-android-plain.colored {
+.devicon-android-plain-wordmark.colored, .devicon-android-plain.colored {
     color: #a4c439
 }
 
-.devicon-angularjs-plain-wordmark.colored,
-.devicon-angularjs-plain.colored {
+.devicon-angularjs-plain-wordmark.colored, .devicon-angularjs-plain.colored {
     color: #c4473a
 }
 
-.devicon-apache-line-wordmark.colored,
-.devicon-apache-line.colored,
-.devicon-apache-plain-wordmark.colored,
-.devicon-apache-plain.colored {
+.devicon-apache-line-wordmark.colored, .devicon-apache-line.colored, .devicon-apache-plain-wordmark.colored, .devicon-apache-plain.colored {
     color: #303284
 }
 
-.devicon-appcelerator-original.colored,
-.devicon-appcelerator-plain-wordmark.colored,
-.devicon-appcelerator-plain.colored {
+.devicon-appcelerator-original.colored, .devicon-appcelerator-plain-wordmark.colored, .devicon-appcelerator-plain.colored {
     color: #ac162c
 }
 
-.devicon-apple-original.colored,
-.devicon-apple-plain.colored {
+.devicon-apple-original.colored, .devicon-apple-plain.colored {
     color: #000
 }
 
-.devicon-atom-original-wordmark.colored,
-.devicon-atom-original.colored,
-.devicon-atom-plain-wordmark.colored,
-.devicon-atom-plain.colored {
+.devicon-atom-original-wordmark.colored, .devicon-atom-original.colored, .devicon-atom-plain-wordmark.colored, .devicon-atom-plain.colored {
     color: #67595d
 }
 
-.devicon-babel-original.colored,
-.devicon-babel-plain.colored {
+.devicon-babel-original.colored, .devicon-babel-plain.colored {
     color: #f9dc3e
 }
 
-.devicon-backbonejs-plain-wordmark.colored,
-.devicon-backbonejs-plain.colored {
+.devicon-backbonejs-plain-wordmark.colored, .devicon-backbonejs-plain.colored {
     color: #002a41
 }
 
-.devicon-bootstrap-plain-wordmark.colored,
-.devicon-bootstrap-plain.colored {
+.devicon-bootstrap-plain-wordmark.colored, .devicon-bootstrap-plain.colored {
     color: #59407f
 }
 
-.devicon-bower-line-wordmark.colored,
-.devicon-bower-line.colored,
-.devicon-bower-plain-wordmark.colored,
-.devicon-bower-plain.colored {
+.devicon-bower-line-wordmark.colored, .devicon-bower-line.colored, .devicon-bower-plain-wordmark.colored, .devicon-bower-plain.colored {
     color: #ef5734
 }
 
-.devicon-c-line-wordmark.colored,
-.devicon-c-line.colored,
-.devicon-c-plain-wordmark.colored,
-.devicon-c-plain.colored {
+.devicon-c-line-wordmark.colored, .devicon-c-line.colored, .devicon-c-plain-wordmark.colored, .devicon-c-plain.colored {
     color: #03599c
 }
 
-.devicon-chrome-plain-wordmark.colored,
-.devicon-chrome-plain.colored {
+.devicon-chrome-plain-wordmark.colored, .devicon-chrome-plain.colored {
     color: #ce4e4e
 }
 
-.devicon-codeigniter-plain-wordmark.colored,
-.devicon-codeigniter-plain.colored {
+.devicon-codeigniter-plain-wordmark.colored, .devicon-codeigniter-plain.colored {
     color: #ee4323
 }
 
-.devicon-coffeescript-original-wordmark.colored,
-.devicon-coffeescript-original.colored,
-.devicon-coffeescript-plain-wordmark.colored,
-.devicon-coffeescript-plain.colored {
+.devicon-coffeescript-original-wordmark.colored, .devicon-coffeescript-original.colored, .devicon-coffeescript-plain-wordmark.colored, .devicon-coffeescript-plain.colored {
     color: #28334c
 }
 
-.devicon-cplusplus-line-wordmark.colored,
-.devicon-cplusplus-line.colored,
-.devicon-cplusplus-plain-wordmark.colored,
-.devicon-cplusplus-plain.colored {
+.devicon-cplusplus-line-wordmark.colored, .devicon-cplusplus-line.colored, .devicon-cplusplus-plain-wordmark.colored, .devicon-cplusplus-plain.colored {
     color: #9c033a
 }
 
-.devicon-csharp-line-wordmark.colored,
-.devicon-csharp-line.colored,
-.devicon-csharp-plain-wordmark.colored,
-.devicon-csharp-plain.colored {
+.devicon-csharp-line-wordmark.colored, .devicon-csharp-line.colored, .devicon-csharp-plain-wordmark.colored, .devicon-csharp-plain.colored {
     color: #68217a
 }
 
-.devicon-css3-plain-wordmark.colored,
-.devicon-css3-plain.colored {
+.devicon-css3-plain-wordmark.colored, .devicon-css3-plain.colored {
     color: #3d8fc6
 }
 
-.devicon-debian-plain-wordmark.colored,
-.devicon-debian-plain.colored {
+.devicon-debian-plain-wordmark.colored, .devicon-debian-plain.colored {
     color: #a80030
 }
 
-.devicon-django-line-wordmark.colored,
-.devicon-django-line.colored,
-.devicon-django-plain-wordmark.colored,
-.devicon-django-plain.colored {
+.devicon-django-line-wordmark.colored, .devicon-django-line.colored, .devicon-django-plain-wordmark.colored, .devicon-django-plain.colored {
     color: #003a2b
 }
 
-.devicon-docker-plain-wordmark.colored,
-.devicon-docker-plain.colored {
+.devicon-docker-plain-wordmark.colored, .devicon-docker-plain.colored {
     color: #019bc6
 }
 
-.devicon-doctrine-line-wordmark.colored,
-.devicon-doctrine-line.colored,
-.devicon-doctrine-plain-wordmark.colored,
-.devicon-doctrine-plain.colored {
+.devicon-doctrine-line-wordmark.colored, .devicon-doctrine-line.colored, .devicon-doctrine-plain-wordmark.colored, .devicon-doctrine-plain.colored {
     color: #f56d39
 }
 
-.devicon-dot-net-plain-wordmark.colored,
-.devicon-dot-net-plain.colored {
+.devicon-dot-net-plain-wordmark.colored, .devicon-dot-net-plain.colored {
     color: #1384c8
 }
 
-.devicon-drupal-plain-wordmark.colored,
-.devicon-drupal-plain.colored {
+.devicon-drupal-plain-wordmark.colored, .devicon-drupal-plain.colored {
     color: #0073ba
 }
 
-.devicon-erlang-plain-wordmark.colored,
-.devicon-erlang-plain.colored {
+.devicon-erlang-plain-wordmark.colored, .devicon-erlang-plain.colored {
     color: #a90533
 }
 
-.devicon-facebook-original.colored,
-.devicon-facebook-plain.colored {
+.devicon-facebook-original.colored, .devicon-facebook-plain.colored {
     color: #3d5a98
 }
 
-.devicon-firefox-plain-wordmark.colored,
-.devicon-firefox-plain.colored {
+.devicon-firefox-plain-wordmark.colored, .devicon-firefox-plain.colored {
     color: #dd732a
 }
 
-.devicon-foundation-plain-wordmark.colored,
-.devicon-foundation-plain.colored {
+.devicon-foundation-plain-wordmark.colored, .devicon-foundation-plain.colored {
     color: #008cba
 }
 
-.devicon-gimp-plain-wordmark.colored,
-.devicon-gimp-plain.colored {
+.devicon-gimp-plain-wordmark.colored, .devicon-gimp-plain.colored {
     color: #716955
 }
 
-.devicon-git-plain-wordmark.colored,
-.devicon-git-plain.colored {
+.devicon-git-plain-wordmark.colored, .devicon-git-plain.colored {
     color: #f34f29
 }
 
-.devicon-go-line.colored,
-.devicon-go-plain.colored {
+.devicon-go-line.colored, .devicon-go-plain.colored {
     color: #000
 }
 
-.devicon-google-original-wordmark.colored,
-.devicon-google-original.colored,
-.devicon-google-plain-wordmark.colored,
-.devicon-google-plain.colored {
+.devicon-google-original-wordmark.colored, .devicon-google-original.colored, .devicon-google-plain-wordmark.colored, .devicon-google-plain.colored {
     color: #587dbd
 }
 
-.devicon-grunt-line-wordmark.colored,
-.devicon-grunt-line.colored,
-.devicon-grunt-plain-wordmark.colored,
-.devicon-grunt-plain.colored {
+.devicon-grunt-line-wordmark.colored, .devicon-grunt-line.colored, .devicon-grunt-plain-wordmark.colored, .devicon-grunt-plain.colored {
     color: #fcaa1a
 }
 
@@ -4621,42 +4314,31 @@ template {
     color: #eb4a4b
 }
 
-.devicon-heroku-line-wordmark.colored,
-.devicon-heroku-line.colored,
-.devicon-heroku-original-wordmark.colored,
-.devicon-heroku-original.colored,
-.devicon-heroku-plain-wordmark.colored,
-.devicon-heroku-plain.colored {
+.devicon-heroku-line-wordmark.colored, .devicon-heroku-line.colored, .devicon-heroku-original-wordmark.colored, .devicon-heroku-original.colored, .devicon-heroku-plain-wordmark.colored, .devicon-heroku-plain.colored {
     color: #6762a6
 }
 
-.devicon-html5-plain-wordmark.colored,
-.devicon-html5-plain.colored {
+.devicon-html5-plain-wordmark.colored, .devicon-html5-plain.colored {
     color: #e54d26
 }
 
-.devicon-ie10-original.colored,
-.devicon-ie10-plain.colored {
+.devicon-ie10-original.colored, .devicon-ie10-plain.colored {
     color: #1ebbee
 }
 
-.devicon-illustrator-line.colored,
-.devicon-illustrator-plain.colored {
+.devicon-illustrator-line.colored, .devicon-illustrator-plain.colored {
     color: #faa625
 }
 
-.devicon-inkscape-plain-wordmark.colored,
-.devicon-inkscape-plain.colored {
+.devicon-inkscape-plain-wordmark.colored, .devicon-inkscape-plain.colored {
     color: #000
 }
 
-.devicon-java-plain-wordmark.colored,
-.devicon-java-plain.colored {
+.devicon-java-plain-wordmark.colored, .devicon-java-plain.colored {
     color: #ea2d2e
 }
 
-.devicon-jasmine-plain-wordmark.colored,
-.devicon-jasmine-plain.colored {
+.devicon-jasmine-plain-wordmark.colored, .devicon-jasmine-plain.colored {
     color: #8a4182
 }
 
@@ -4664,25 +4346,19 @@ template {
     color: #f0db4f
 }
 
-.devicon-jetbrains-line-wordmark.colored,
-.devicon-jetbrains-line.colored,
-.devicon-jetbrains-plain-wordmark.colored,
-.devicon-jetbrains-plain.colored {
+.devicon-jetbrains-line-wordmark.colored, .devicon-jetbrains-line.colored, .devicon-jetbrains-plain-wordmark.colored, .devicon-jetbrains-plain.colored {
     color: #f68b1f
 }
 
-.devicon-jquery-plain-wordmark.colored,
-.devicon-jquery-plain.colored {
+.devicon-jquery-plain-wordmark.colored, .devicon-jquery-plain.colored {
     color: #0769ad
 }
 
-.devicon-krakenjs-plain-wordmark.colored,
-.devicon-krakenjs-plain.colored {
+.devicon-krakenjs-plain-wordmark.colored, .devicon-krakenjs-plain.colored {
     color: #0081c2
 }
 
-.devicon-laravel-plain-wordmark.colored,
-.devicon-laravel-plain.colored {
+.devicon-laravel-plain-wordmark.colored, .devicon-laravel-plain.colored {
     color: #fd4f31
 }
 
@@ -4694,8 +4370,7 @@ template {
     color: #000
 }
 
-.devicon-meteor-plain-wordmark.colored,
-.devicon-meteor-plain.colored {
+.devicon-meteor-plain-wordmark.colored, .devicon-meteor-plain.colored {
     color: #df5052
 }
 
@@ -4703,48 +4378,35 @@ template {
     color: #8d6748
 }
 
-.devicon-mongodb-plain-wordmark.colored,
-.devicon-mongodb-plain.colored {
+.devicon-mongodb-plain-wordmark.colored, .devicon-mongodb-plain.colored {
     color: #4faa41
 }
 
-.devicon-moodle-plain-wordmark.colored,
-.devicon-moodle-plain.colored {
+.devicon-moodle-plain-wordmark.colored, .devicon-moodle-plain.colored {
     color: #f7931e
 }
 
-.devicon-mysql-plain-wordmark.colored,
-.devicon-mysql-plain.colored {
+.devicon-mysql-plain-wordmark.colored, .devicon-mysql-plain.colored {
     color: #00618a
 }
 
-.devicon-nginx-original-wordmark.colored,
-.devicon-nginx-original.colored,
-.devicon-nginx-plain-wordmark.colored,
-.devicon-nginx-plain.colored {
+.devicon-nginx-original-wordmark.colored, .devicon-nginx-original.colored, .devicon-nginx-plain-wordmark.colored, .devicon-nginx-plain.colored {
     color: #090
 }
 
-.devicon-nodejs-plain-wordmark.colored,
-.devicon-nodejs-plain.colored {
+.devicon-nodejs-plain-wordmark.colored, .devicon-nodejs-plain.colored {
     color: #83cd29
 }
 
-.devicon-nodewebkit-line-wordmark.colored,
-.devicon-nodewebkit-line.colored,
-.devicon-nodewebkit-plain-wordmark.colored,
-.devicon-nodewebkit-plain.colored {
+.devicon-nodewebkit-line-wordmark.colored, .devicon-nodewebkit-line.colored, .devicon-nodewebkit-plain-wordmark.colored, .devicon-nodewebkit-plain.colored {
     color: #3d3b47
 }
 
-.devicon-oracle-original.colored,
-.devicon-oracle-plain-wordmark.colored,
-.devicon-oracle-plain.colored {
+.devicon-oracle-original.colored, .devicon-oracle-plain-wordmark.colored, .devicon-oracle-plain.colored {
     color: #ea1b22
 }
 
-.devicon-photoshop-line.colored,
-.devicon-photoshop-plain.colored {
+.devicon-photoshop-line.colored, .devicon-photoshop-plain.colored {
     color: #80b5e2
 }
 
@@ -4752,94 +4414,67 @@ template {
     color: #6181b6
 }
 
-.devicon-postgresql-plain-wordmark.colored,
-.devicon-postgresql-plain.colored {
+.devicon-postgresql-plain-wordmark.colored, .devicon-postgresql-plain.colored {
     color: #336791
 }
 
-.devicon-python-plain-wordmark.colored,
-.devicon-python-plain.colored {
+.devicon-python-plain-wordmark.colored, .devicon-python-plain.colored {
     color: #ffd845
 }
 
-.devicon-rails-plain-wordmark.colored,
-.devicon-rails-plain.colored {
+.devicon-rails-plain-wordmark.colored, .devicon-rails-plain.colored {
     color: #a62c46
 }
 
-.devicon-ruby-plain-wordmark.colored,
-.devicon-ruby-plain.colored {
+.devicon-ruby-plain-wordmark.colored, .devicon-ruby-plain.colored {
     color: #d91404
 }
 
-.devicon-safari-line-wordmark.colored,
-.devicon-safari-line.colored,
-.devicon-safari-plain-wordmark.colored,
-.devicon-safari-plain.colored {
+.devicon-safari-line-wordmark.colored, .devicon-safari-line.colored, .devicon-safari-plain-wordmark.colored, .devicon-safari-plain.colored {
     color: #1b88ca
 }
 
-.devicon-react-original-wordmark.colored,
-.devicon-react-original.colored,
-.devicon-react-plain-wordmark.colored,
-.devicon-react-plain.colored {
+.devicon-react-original-wordmark.colored, .devicon-react-original.colored, .devicon-react-plain-wordmark.colored, .devicon-react-plain.colored {
     color: #61dafb
 }
 
-.devicon-redhat-original-wordmark.colored,
-.devicon-redhat-original.colored,
-.devicon-redhat-plain-wordmark.colored,
-.devicon-redhat-plain.colored {
+.devicon-redhat-original-wordmark.colored, .devicon-redhat-original.colored, .devicon-redhat-plain-wordmark.colored, .devicon-redhat-plain.colored {
     color: #e93442
 }
 
-.devicon-redis-plain-wordmark.colored,
-.devicon-redis-plain.colored {
+.devicon-redis-plain-wordmark.colored, .devicon-redis-plain.colored {
     color: #d82c20
 }
 
-.devicon-sass-original.colored,
-.devicon-sass-plain-wordmark.colored,
-.devicon-sass-plain.colored {
+.devicon-sass-original.colored, .devicon-sass-plain-wordmark.colored, .devicon-sass-plain.colored {
     color: #c69
 }
 
-.devicon-sequelize-original-wordmark.colored,
-.devicon-sequelize-original.colored,
-.devicon-sequelize-plain-wordmark.colored,
-.devicon-sequelize-plain.colored {
+.devicon-sequelize-original-wordmark.colored, .devicon-sequelize-original.colored, .devicon-sequelize-plain-wordmark.colored, .devicon-sequelize-plain.colored {
     color: #3b4b72
 }
 
-.devicon-symfony-original-wordmark.colored,
-.devicon-symfony-original.colored,
-.devicon-symfony-plain-wordmark.colored,
-.devicon-symfony-plain.colored {
+.devicon-symfony-original-wordmark.colored, .devicon-symfony-original.colored, .devicon-symfony-plain-wordmark.colored, .devicon-symfony-plain.colored {
     color: #1a171b
 }
 
-.devicon-travis-plain-wordmark.colored,
-.devicon-travis-plain.colored {
+.devicon-travis-plain-wordmark.colored, .devicon-travis-plain.colored {
     color: #bb2031
 }
 
-.devicon-trello-plain-wordmark.colored,
-.devicon-trello-plain.colored {
+.devicon-trello-plain-wordmark.colored, .devicon-trello-plain.colored {
     color: #23719f
 }
 
-.devicon-twitter-original.colored,
-.devicon-twitter-plain.colored {
+.devicon-twitter-original.colored, .devicon-twitter-plain.colored {
     color: #1da1f2
 }
 
-.devicon-typescript-original.colored,
-.devicon-typescript-plain.colored {
+.devicon-typescript-original.colored, .devicon-typescript-plain.colored {
     color: #007acc
 }
 
-.devicon-ubuntu-plain-wordmark.colored,
-.devicon-ubuntu-plain.colored {
+.devicon-ubuntu-plain-wordmark.colored, .devicon-ubuntu-plain.colored {
     color: #dd4814
 }
 
@@ -4847,25 +4482,19 @@ template {
     color: #179a33
 }
 
-.devicon-windows8-original-wordmark.colored,
-.devicon-windows8-original.colored,
-.devicon-windows8-plain-wordmark.colored,
-.devicon-windows8-plain.colored {
+.devicon-windows8-original-wordmark.colored, .devicon-windows8-original.colored, .devicon-windows8-plain-wordmark.colored, .devicon-windows8-plain.colored {
     color: #00adef
 }
 
-.devicon-wordpress-plain-wordmark.colored,
-.devicon-wordpress-plain.colored {
+.devicon-wordpress-plain-wordmark.colored, .devicon-wordpress-plain.colored {
     color: #494949
 }
 
-.devicon-yii-plain-wordmark.colored,
-.devicon-yii-plain.colored {
+.devicon-yii-plain-wordmark.colored, .devicon-yii-plain.colored {
     color: #0073bb
 }
 
-.devicon-zend-plain-wordmark.colored,
-.devicon-zend-plain.colored {
+.devicon-zend-plain-wordmark.colored, .devicon-zend-plain.colored {
     color: #68b604
 }
 
@@ -4877,22 +4506,11 @@ body {
     font-family: 'Montserrat', sans-serif
 }
 
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-nav,
-section {
+article, aside, figcaption, figure, footer, header, nav, section {
     display: block
 }
 
-h1,
-h2,
-h3,
-h4,
-strong {
+h1, h2, h3, h4, strong {
     margin-top: 0.2em;
     padding-top: 1em;
     line-height: 1.25;
@@ -4915,15 +4533,11 @@ h4 {
     font-size: 1rem
 }
 
-ol,
-ul {
+ol, ul {
     padding-left: 40px
 }
 
-figure,
-ol,
-p,
-ul {
+figure, ol, p, ul {
     margin: 1em 0;
     color: white;
 }
@@ -4932,8 +4546,7 @@ a img {
     border: 0
 }
 
-sub,
-sup {
+sub, sup {
     line-height: 0
 }
 
@@ -4953,15 +4566,14 @@ sup {
     height: 100vh!important;
 }
 
-
 /* header logo  */
 
 .logo-scaling {
     position: relative;
     bottom: 45px;
-    right : 15px;
-    width: 50%;
-    height: auto;
+    right: 15px;
+    width: 500px;
+    height: 375px;
 }
 
 .header {
@@ -5005,7 +4617,6 @@ sup {
 @media only screen and (min-width:550px) {
     .header .site-description {
         font-size: 4.6vh;
-
     }
 }
 
@@ -5021,6 +4632,7 @@ sup {
     position: relative;
     bottom: 20px;
 }
+
 .header-vertical-line {
     color: #fff;
     text-decoration: none;
@@ -5042,8 +4654,7 @@ sup {
     text-align: center
 }
 
-.down,
-.header-icons .icon {
+.down, .header-icons .icon {
     color: #fff;
     text-align: center
 }
@@ -5083,14 +4694,12 @@ sup {
     margin: 5px
 }
 
-.header-icons-small .icon-small:active,
-.header-icons-small .icon-small:hover {
+.header-icons-small .icon-small:active, .header-icons-small .icon-small:hover {
     color: #1a222c;
     background: #fff
 }
 
-.header-icons .icon:active,
-.header-icons .icon:hover {
+.header-icons .icon:active, .header-icons .icon:hover {
     color: #1a222c;
     background: #fff
 }
@@ -5102,7 +4711,7 @@ sup {
         font-size: 21px;
         position: relative;
         bottom: 10px;
-        left : 43px;
+        left: 43px;
     }
 }
 
@@ -5139,10 +4748,7 @@ sup {
     animation: pulse 1.3s infinite
 }
 
-.down .icon:active,
-.down .icon:hover,
-.footer a:active,
-.footer a:hover {
+.down .icon:active, .down .icon:hover, .footer a:active, .footer a:hover {
     color: #4b5664
 }
 
@@ -5172,10 +4778,12 @@ sup {
         width: 80%
     }
 }
-#body-scaling{
+
+#body-scaling {
     /* zoom: 1.25;
     -moz-transform: scale(1.25); */
 }
+
 .body-coloring {
     background-color: #272d36;
 }
@@ -5239,11 +4847,9 @@ img.photos {
     border-radius: 5px
 }
 
-.user-projects h5,
-body {
+.user-projects h5, body {
     margin: 0
 }
-
 
 /* Featured projects color */
 
@@ -5264,8 +4870,7 @@ body {
     .contents-right {
         margin-top: -5%
     }
-    .contents-right,
-    .images-right {
+    .contents-right, .images-right {
         float: right;
         width: 48%
     }
@@ -5283,25 +4888,30 @@ body {
 
 .project-link {
     display: inline-block;
+    /* font-family: 'Google Sans','Roboto',Arial,sans-serif; */
     margin: 10px 0;
-    padding: 5px;
+    padding: 7px;
     color: white;
+    border: 1px solid black;
+
     background-color: transparent;
-    border: 1px solid white;
-    border-radius: 10px;
+    position: relative;
+    top : 10px;
+    border-radius: 9px;
     text-align: center;
     outline: 0;
+    background-color: #54516a;
     text-decoration: none;
     cursor: pointer;
-    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
+    transition: color .3s ease-out, background-color 0s, border-color .3s ease-out
 }
 
-.project-link:active,
-.project-link:hover {
-    background-color: #54516a;
+.project-link:active, .project-link:hover {
+    background-color: #483B7E;
     border-color: #54516a;
+    border: 1px solid white;
     color: #fff;
-    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
+    transition: color .3s ease-in, background-color 0s , border-color .3s 
 }
 
 .footer {
@@ -5310,6 +4920,27 @@ body {
     margin-top: 100px;
     text-align: center;
     color: #fff
+}
+
+.horizontal-align {
+    display: inline-block;
+}
+
+.vertical {
+    border-left: 1px solid white;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    /* background-color: white; */
+}
+
+.align-img {
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 17px;
+    left: 50px;
 }
 
 .footer .love {

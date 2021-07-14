@@ -1,6 +1,12 @@
 <div class="user-details">
     <h1> Our Team </h1>
 </div>
+{% assign min = 45 %}
+{% assign max = 80 %}
+{% assign diff = max | minus: min %}
+{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+
+
 <div class="user">
     <div class="card">
         <img src="https://github.com/TextZip.png" alt="Avatar" style="width:100%">
