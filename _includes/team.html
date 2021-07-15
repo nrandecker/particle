@@ -1,6 +1,6 @@
 <div class="user-details">
     <h1> Spotlight </h1>
-    <h3> Refresh the page and see the magic unfold..</h3>
+    <h4> Meet four new members of our club everytime you refresh this page.</h4>
 </div>
 <script type="text/javascript">
 // posts = members
@@ -51,7 +51,7 @@
             if (counter < numberOfPosts )
             {
                 document.write('<div class="card">');
-                document.write('<img src="'+photo+'" alt="Avatar" style="width:150px">');
+                document.write('<img class="trailer" src="'+photo+'" alt="Avatar" height=250px ">');
                 document.write('<div class="container"><h3><b>'+ name + '</b></h3><p>'+ quote + '</p></div>');
                 document.write('<div class="header-icons-small"><a aria-label="Send email" href="mailto:'+ email +'"><i class="icon-small fa fa-envelope"></i></a><a aria-label="My Github" target="_blank" href="'+ github +'"><i class="icon-small fa fa-github-alt" aria-hidden="true"></i></a><a aria-label="My Facebook" target="_blank" href="'+ facebook +'"><i class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a></div>');
                 document.write('</div>');
@@ -67,58 +67,12 @@
 
 </script>
 
-
-<!-- <div class="user">
-    <div class="card">
-        <img src="https://github.com/TextZip.png" alt="Avatar" style="width:100%">
-        <div class="container"><h3><b>Jai Krishna</b></h3><p>Some Intro</p></div>
-        <div class="header-icons-small"><a aria-label="Send email" href="mailto:textzip@gmail.com"><i class="icon-small fa fa-envelope"></i></a><a aria-label="My Github" target="_blank" href="https://github.com/TextZip"><i class="icon-small fa fa-github-alt" aria-hidden="true"></i></a><a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/jai.krishna.7982"><i class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a></div>
-    </div>
-
-    <div class="card">
-        <img src="https://github.com/adeecc.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h3><b>Aditya Chopra</b></h3>
-            <p>Some Intro</p>
-        </div>
-
-        <div class="header-icons-small">
-            <a aria-label="Send email" href="mailto:arc@hyderabad.bits-pilani.ac.in"><i
-                    class="icon-small fa fa-envelope"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://github.com/adeecc"><i
-                    class="icon-small fa fa-github-alt" aria-hidden="true"></i></a>
-            <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/adico11"><i
-                    class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="https://github.com/Utkarsh0902.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h3><b>Utkarsh Jain</b></h3>
-            <p>Some Intro</p>
-        </div>
-        <div class="header-icons-small">
-            <a aria-label="Send email" href="mailto:arc@hyderabad.bits-pilani.ac.in"><i
-                    class="icon-small fa fa-envelope"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://github.com/Utkarsh0902"><i
-                    class="icon-small fa fa-github-alt" aria-hidden="true"></i></a>
-            <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/utkarsh.jain.5070"><i
-                    class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="https://github.com/prasadboi.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h3><b>Arjun Prasad</b></h3>
-            <p>Some Intro</p>
-        </div>
-        <div class="header-icons-small">
-            <a aria-label="Send email" href="mailto:arc@hyderabad.bits-pilani.ac.in"><i
-                    class="icon-small fa fa-envelope"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://github.com/prasadboi"><i
-                    class="icon-small fa fa-github-alt" aria-hidden="true"></i></a>
-            <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100037727361589"><i
-                    class="icon-small fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
-    </div>
-</div> -->
+<style>
+    .trailer {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 0px solid black;
+    border-radius: 0px;
+}
+</style>
